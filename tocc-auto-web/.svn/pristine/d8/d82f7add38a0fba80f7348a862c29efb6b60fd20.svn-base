@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="28683" started-at="2016-01-29T01:38:44Z" finished-at="2016-01-29T01:39:13Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="28683" started-at="2016-01-29T01:38:44Z" finished-at="2016-01-29T01:39:13Z">
+      <class name="com.auto.cases.login.SystemLoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="beforeClass" is-config="true" duration-ms="18" started-at="2016-01-29T09:38:44Z" finished-at="2016-01-29T09:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="login" duration-ms="10909" started-at="2016-01-29T09:38:45Z" data-provider="SystemLogin" finished-at="2016-01-29T09:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[您好，请输入用户名！]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="login" duration-ms="1790" started-at="2016-01-29T09:38:56Z" data-provider="SystemLogin" finished-at="2016-01-29T09:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xzaqc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[您好，请输入密码！]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="login" duration-ms="1832" started-at="2016-01-29T09:38:58Z" data-provider="SystemLogin" finished-at="2016-01-29T09:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[您好，请输入用户名！]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="login" duration-ms="1647" started-at="2016-01-29T09:39:00Z" data-provider="SystemLogin" finished-at="2016-01-29T09:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jtyj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[您好，请输入验证码！]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="login" duration-ms="5897" started-at="2016-01-29T09:39:01Z" data-provider="SystemLogin" finished-at="2016-01-29T09:39:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xzaqc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[您好，请输入验证码！]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="login" duration-ms="6030" started-at="2016-01-29T09:39:07Z" data-provider="SystemLogin" finished-at="2016-01-29T09:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xzaqc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[t]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[登录成功!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.auto.cases.login.SystemLoginTest@4183b9f4]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-01-29T09:39:13Z" finished-at="2016-01-29T09:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.auto.cases.login.SystemLoginTest -->
+    </test> <!-- test -->
+  </suite> <!-- test -->
+</testng-results>

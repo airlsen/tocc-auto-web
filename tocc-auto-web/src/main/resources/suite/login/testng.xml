@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test" parallel="true">
+
+<test name="test" preserver-order="true">
+<classes>
+//你也可以多个
+<class name="com.auto.cases.login.SystemLoginTest"/>
+</classes>
+
+<listeners>
+<listener class-name="com.incito.excelReporter.TestResultListener" />
+<listener class-name="com.incito.excelReporter.ExcelReporter" />
+
+
+</listeners>
+</test> <!-- Test -->
+</suite> <!-- Suite -->

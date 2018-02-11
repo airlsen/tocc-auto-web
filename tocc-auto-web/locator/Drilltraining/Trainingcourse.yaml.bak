@@ -1,0 +1,129 @@
+#演练培训--培训课程----page页
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgTrainCourse)------------------------
+保存:
+  type:id
+  value:saveBtn
+  
+#(Button)-----------------------------------------
+退出:
+  type:xpath
+  value:".//*[@id='addEmgTrainCourse']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#-------------------------------------------------
+确定:
+  type:id
+  value:alert_dlg_dlg   
+#-------------------------------------------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgDrillSight)------------------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#-------------------------------------------------
+培训管理:
+  type:xpath
+  value:".//*[contains(text(),'培训管理')]" 
+  
+#-------------------------------------------------
+培训课程:
+  type:xpath
+  value:".//*[contains(text(),'培训课程')]" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+课程名称:
+  type:id
+  value:courseName
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+授课老师:
+  type:id
+  value:teachers
+
+  
+#查询用(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------
+名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c102']>div"
+  
+
+
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+课程类型:
+  type:id
+  value:courseType_of_replace_id1
+课程类型选择:
+  type:xpath
+  value:".//*[contains(@id,'courseType_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+
+#----------------------添加功能---------------------------------- -------------- 
+#(iframe:addEmgTrainCourse)------------------------
+名称:
+  type:id
+  value:courseName
+#(iframe:addEmgTrainCourse)------------------------
+老师:
+  type:id
+  value:teachers
+  
+#(iframe:addEmgTrainCourse)------------------------
+类型:
+  type:id
+  value:courseType_of_replace_id1
+类型选择:
+  type:xpath
+  value:".//*[contains(@id,'courseType_of_replace_id')]/parent::div/div/ul/li/a/span"
+    
+#(iframe:addEmgTrainCourse)------------------------
+课时:
+  type:id
+  value:courseTime
+#(iframe:addEmgTrainCourse)------------------------
+授课方式:
+  type:id
+  value:courseForm_of_replace_id2 
+授课方式选择:
+  type:xpath
+  value:".//*[contains(@id,'courseForm_of_replace_id')]/parent::div/div/ul/li/a/span"
+#(iframe:addEmgTrainCourse)------------------------
+考核方式:
+  type:id
+  value:examForm_of_replace_id3 
+考试方式选择:
+  type:xpath
+  value:".//*[contains(@id,'examForm_of_replace_id')]/parent::div/div/ul/li/a/span"
+
+#(iframe:addEmgTrainCourse)------------------------
+课程描述:
+  type:id
+  value:remark
+  
+#----------------------删除功能-------------------------------------------------  
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+ 

@@ -1,0 +1,130 @@
+package com.auto.business.datamanagement;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.auto.business.infodelivery.Globalbusiness;
+
+/**
+ *数据管理--外场设备--视频监控设备管理--业务
+ * @author John
+ *
+ */
+public class Videosurveillancebusiness extends Globalbusiness {
+	
+	public static String TipInformation;
+	private static Logger log = Logger.getLogger(Videosurveillancebusiness.class.getName());
+	/**
+	 * 初始化对象
+	 * @throws Exception 
+	 */
+	public Videosurveillancebusiness(WebDriver driver,String function)  {
+		super(driver,function);
+		PageFactory.initElements(driver, this);
+	}	
+
+	/**
+	 * -----添加业务
+	 * @param title
+	 * @param content
+	 * @param flag
+	 * @param expected
+	 * @return
+	 * @throws Exception
+	 */
+	public String add(String cameraName,String cameraNumber,String channelId,String alermChannelId,String username,String password ,String srserverip,String placeName,
+			String longitude,String latitude ,String monitorObject,String companyName,String locationDescribe,String flag,String expected)
+			throws Exception{
+		log.info("数据管理--视频监控设备管理--添加功能---------------------");
+		log.info("预期结果：   "+expected);
+		//演练场景管理
+		outFrame();
+		click(yaml.getElement("视频监控设备管理"));
+		inFrame("APP-SJGL-WCSB-SPGL");
+		//click添加		
+		click(yaml.getElement("添加"));
+		outFrame();
+		inFrame("addJtCamera");
+		//input名称
+		sendKeys(yaml.getElement("添加名称"),cameraName);
+		//input编号
+		sendKeys(yaml.getElement("编号"),cameraNumber);
+		//input视频通道
+		sendKeys(yaml.getElement("视频通道"),channelId);
+		//input报警通道
+		sendKeys(yaml.getElement("报警通道"),alermChannelId);
+		//input用户名
+		sendKeys(yaml.getElement("用户名"),username);
+		//input密码
+		sendKeys(yaml.getElement("密码"),password);
+		//input IP地址
+		sendKeys(yaml.getElement("IP地址"),srserverip);
+		//input所在地
+		sendKeys(yaml.getElement("所在地"),placeName);
+		//input经度
+		sendKeys(yaml.getElement("经度"),longitude);
+		//input纬度
+		sendKeys(yaml.getElement("纬度"),latitude);
+		//input监控对象
+		sendKeys(yaml.getElement("监控对象"),monitorObject);
+		//input生产厂家
+		sendKeys(yaml.getElement("生产厂家"),companyName);
+		//input位置描述
+		sendKeys(yaml.getElement("位置描述"),locationDescribe);
+		//click保存草稿
+		click(yaml.getElement("保存"));
+
+		return addResult(flag);
+		
+	}
+	/**
+	 * -----查询业务
+	 * @param title
+	 * @param state
+	 * @throws Exception
+	 */
+	public void querys(String cameraName,String type) throws Exception{
+		log.info("数据管理--视频监控设备管理--查询功能---------------------");
+		//回到默认iframe
+		outFrame();
+		click(yaml.getElement("视频监控设备管理"));
+		//跳转到iframe
+		inFrame("APP-SJGL-WCSB-SPGL");
+		//input标题
+		sendKeys(yaml.getElement("名称"),cameraName);
+		//select信息状态
+		if(type !=""){
+			click(yaml.getElement("类型"));
+			click(yaml.getElement("类型选择",type));		
+		}	
+		//点击查询
+		click(yaml.getElement("查询"));
+		pause(1);
+	}
+	
+	/**
+	 * -----删除业务
+	 * @return
+	 * @throws Exception
+	 */
+	public String deletes(String index) throws Exception{
+		log.info("数据管理--视频监控设备管理--删除功能---------------------");	
+		//任意选择列点击删除
+		outFrame();
+		click(yaml.getElement("视频监控设备管理"));
+		//跳转默认iframe
+		inFrame("APP-SJGL-WCSB-SPGL");
+		click(yaml.getElements("删除").get(Integer.parseInt(index.trim())));
+		 //获取提示信息
+		 TipInformation=getText(yaml.getElement("弹出信息"));    
+		 //click是
+		 click(yaml.getElement("是"));	
+		 return TipInformation;
+		 
+	}
+}
+	
+	
+
+

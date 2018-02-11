@@ -1,0 +1,72 @@
+#齐宝斋--官方交易平台注册----page页
+#----------------------------------------------------
+注册账号:
+  type:xpath
+  value:".//*[contains(text(),'注册账号')]"  
+
+#----------------------手机注册功能-------------------------------------------------
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+课程名称:
+  type:id
+  value:courseName
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+授课老师:
+  type:id
+  value:teachers
+
+  
+#查询用(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------
+名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c102']>div"
+  
+
+
+#(iframe:SYS-XZYJ-APP-YLPX-PXKC)----------------------
+课程类型:
+  type:id
+  value:courseType_of_replace_id1
+课程类型选择:
+  type:xpath
+  value:".//*[contains(@id,'courseType_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+
+#----------------------个性功能---------------------------------- -------------- 
+#------------------------
+通行证账号:
+  type:name
+  value:username
+#------------------------
+设置密码:
+  type:name
+  value:password
+  
+#------------------------
+确认密码:
+  type:name
+  value:passwordCompare
+    
+#------------------------
+真实姓名:
+  type:name
+  value:truename
+
+#------------------------
+身份证号码:
+  type:name
+  value:idcard 
+
+ #------------------------
+邮箱:
+  type:name
+  value:email 
+ #------------------------
+推广人:
+  type:name
+  value:extender 
+
+#------------------------
+验证码:
+  type:id
+  value:examForm_of_replace_id3 
+

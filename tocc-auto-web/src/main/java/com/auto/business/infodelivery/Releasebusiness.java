@@ -1,0 +1,116 @@
+package com.auto.business.infodelivery;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+/**
+ *信息发布--发布信息管理-业务
+ * @author John
+ *
+ */
+public class Releasebusiness extends Globalbusiness {
+	
+	public static String TipInformation;
+	private static Logger log = Logger.getLogger(Releasebusiness.class.getName());
+	/**
+	 * 初始化对象
+	 * @throws Exception 
+	 */
+	public Releasebusiness(WebDriver driver,String function)  {
+		super(driver,function);
+		PageFactory.initElements(driver, this);
+	}	
+
+	/**
+	 * -----添加业务
+	 * @param title
+	 * @param content
+	 * @param flag
+	 * @param expected
+	 * @return
+	 * @throws Exception
+	 */
+	public String add(String title,String content ,String flag,String expected) throws Exception{
+		log.info("-----------------------信息发布--发布信息管理--添加功能");
+		log.info("预期结果:"+expected);
+		//发布信息管理
+		outFrame();
+		click(yaml.getElement("发布信息管理"));
+		inFrame("APP-XXFB-FBXX");	
+		//click添加		
+		click(yaml.getElement("添加"));
+		pause(2);
+		outFrame();
+		inFrame("addEmgMsgDailyPlan");
+		//input标题
+		sendKeys(yaml.getElement("添加标题"),title);
+		//input模板
+		click(yaml.getElement("模板"));
+		click(redomElement("模板选择"));
+		//input信息类别
+		click(yaml.getElement("信息类别"));
+		click(redomElement("信息类别选择"));
+		//input内容
+		sendKeys(yaml.getElement("内容"),content);
+		//click
+		click(yaml.getElement("保存"));
+
+		return addResult(flag);
+		
+	}
+	/**
+	 * -----查询业务
+	 * @param title
+	 * @param state
+	 * @throws Exception
+	 */
+	public void querys(String title,String type,String status) throws Exception    {
+		log.info("------------------------信息发布--发布信息管理--查询功能");
+		//回到默认iframe
+		outFrame();
+		click(yaml.getElement("发布信息管理"));
+		//跳转到iframe
+		inFrame("APP-XXFB-FBXX");	
+		//input标题
+		sendKeys(yaml.getElement("标题"),title);
+		//select信息类别
+		if(type !=""){
+			click(yaml.getElement("信息类别"));
+			click(yaml.getElement("信息类别选择",type));		
+		}
+		if(status !=""){
+			click(yaml.getElement("信息状态"));
+			click(yaml.getElement("信息状态选择",status));		
+		}
+		//点击查询
+		click(yaml.getElement("查询"));
+		//等待2秒
+		pause(2);
+	}
+	
+	/**
+	 * -----删除业务
+	 * @return
+	 * @throws Exception
+	 */
+	public String deletes(String index) throws Exception{
+		log.info("------------------------信息发布--发布信息管理--删除功能");		
+		//任点击删除
+		outFrame();
+		click(yaml.getElement("发布信息管理"));
+		//跳转默认iframe
+		inFrame("APP-XXFB-FBXX");	
+		click(yaml.getElements("删除").get(Integer.parseInt(index.trim())));
+		 //获取提示信息
+		 TipInformation=getText(yaml.getElement("弹出信息"));    
+		 //click确定
+		 click(yaml.getElement("是"));	
+		 return TipInformation;
+		 
+	}
+}
+	
+	
+
+

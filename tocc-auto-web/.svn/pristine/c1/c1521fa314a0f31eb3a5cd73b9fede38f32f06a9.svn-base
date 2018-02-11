@@ -1,0 +1,274 @@
+﻿package com.util;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import org.apache.log4j.Logger;
+
+/**
+ * DatabaseService
+ * 
+ * @author Harry W.xu, Jan 2, 2013
+ * 
+ */
+
+public class DatabaseService {
+	public static Logger logger = Logger.getLogger(DatabaseService.class.getName());
+
+	/**
+	 * Create Connection
+	 * 
+	 * @param dbtype
+	 * @param username
+	 * @param password
+	 * @param url
+	 * @return
+	 * @throws Exception
+	 */
+	public Connection connectDBDriver(String dbtype, String username,
+			String password, String url) throws Exception {
+		Connection conn = null;
+		try {
+			if (dbtype.equals("mysql")) {
+				Class.forName("com.mysql.jdbc.Driver").newInstance();
+			} else if (dbtype.equals("oracle")) {
+				Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
+			} else {
+				logger.error("undefined db type !");
+			}
+			conn = DriverManager.getConnection(url, username, password);
+			logger.info("Database connection established");
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error("Cannot connect to database server");
+		}
+		return conn;
+	}
+
+	/**
+	 * close DB
+	 * 
+	 * @param conn
+	 * @throws Exception
+	 */
+	public void closeDBDriver(Connection conn) throws Exception {
+		try {
+			conn.close();
+			logger.info("Database connection terminated");
+		} catch (Exception e) { /* ignore close errors */
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+	}
+
+	/**
+	 * get ResultSet
+	 * 
+	 * @param conn
+	 * @param sql
+	 * @return
+	 * @throws Exception
+	 */
+	private ResultSet getResultSet(Connection conn, String sql)
+			throws Exception {
+		ResultSet resultSet = null;
+		try {
+			// PreparedStatement pstmt;
+			// ResultSet rset;
+			Statement statement = conn.createStatement(
+					ResultSet.TYPE_SCROLL_INSENSITIVE,
+					ResultSet.CONCUR_READ_ONLY);
+			// pstmt = conn.prepareStatement(sql);
+			resultSet = statement.executeQuery(sql);
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return resultSet;
+	}
+
+	/**
+	 * get ColumnCount
+	 * 
+	 * @param resultSet
+	 * @return
+	 * @throws Exception
+	 */
+	private int getColumnCount(ResultSet resultSet) throws Exception {
+		int columnCount = 0;
+		try {
+			// ResultSet resultSet = this.getResultSet(conn, sql);
+			columnCount = resultSet.getMetaData().getColumnCount();
+			if (columnCount == 0) {
+				logger.info("sql error!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return columnCount;
+	}
+
+	/**
+	 * get ColumnCount
+	 * 
+	 * @param conn
+	 * @param sql
+	 * @return
+	 * @throws Exception
+	 */
+	public int getColumnCount(Connection conn, String sql) throws Exception {
+		int columnCount = 0;
+		try {
+			// ResultSet resultSet = this.getResultSet(conn, sql);
+			columnCount = getResultSet(conn, sql).getMetaData()
+					.getColumnCount();
+			if (columnCount == 0) {
+				logger.info("sql error!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return columnCount;
+	}
+
+	/**
+	 * get RowCount
+	 * 
+	 * @param conn
+	 * @param sql
+	 * @return
+	 * @throws Exception
+	 */
+	public int getRowCount(Connection conn, String sql) throws Exception {
+		int rowCount = 0;
+		try {
+			ResultSet resultSet = getResultSet(conn, sql);
+			resultSet.last();
+			rowCount = resultSet.getRow();
+			if (rowCount == 0) {
+				logger.info("sql query no data!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return rowCount;
+	}
+
+	/**
+	 * get RowCount
+	 * 
+	 * @param resultSet
+	 * @return
+	 * @throws Exception
+	 */
+	private int getRowCount(ResultSet resultSet) throws Exception {
+		int rowCount = 0;
+		try {
+			resultSet.last();
+			rowCount = resultSet.getRow();
+			if (rowCount == 0) {
+				logger.info("sql query no data!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return rowCount;
+	}
+
+	/**
+	 * get data by row index and col index
+	 * 
+	 * @param conn
+	 * @param sql
+	 * @param row
+	 * @param col
+	 * @return
+	 * @throws Exception
+	 */
+	public String getData(Connection conn, String sql, int row, int col)
+			throws Exception {
+		String data = null;
+		int rownum = 0;
+		int rowcount = 0;
+		int colcount = 0;
+		try {
+			ResultSet resultSet = getResultSet(conn, sql);
+			colcount = getColumnCount(resultSet);
+			rowcount = getRowCount(resultSet);
+			resultSet.beforeFirst();
+			if (rowcount > 0) {
+				if (row <= 0 || row > rowcount) {
+					logger.error("error row index!");
+				} else {
+					if (col <= 0 || col > colcount) {
+						logger.error("error col index!");
+					} else {
+						while (resultSet.next()) {
+							rownum++;
+							if (rownum == row) {
+								data = resultSet.getString(col);
+								break;
+							}
+						}
+					}
+				}
+			} else {
+				logger.info("sql query no data!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return data;
+	}
+
+	/**
+	 * get data by row index and col index
+	 * 
+	 * @param conn
+	 * @param sql
+	 * @param row
+	 * @param field
+	 * @return
+	 * @throws Exception
+	 */
+	public String getData(Connection conn, String sql, int row, String field)
+			throws Exception {
+		String data = null;
+		int rownum = 0;
+		int rowcount = 0;
+		// int colcount = 0;
+		try {
+			ResultSet resultSet = getResultSet(conn, sql);
+			// colcount = getColumnCount(resultSet);
+			rowcount = getRowCount(resultSet);
+			resultSet.beforeFirst();
+			if (rowcount > 0) {
+				if (row <= 0 || row > rowcount) {
+					logger.error("error row index!");
+				} else {
+					while (resultSet.next()) {
+						rownum++;
+						if (rownum == row) {
+							data = resultSet.getString(field);
+							break;
+						}
+					}
+				}
+			} else {
+				logger.info("sql query no data!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.toString());
+		}
+		return data;
+	}
+
+}

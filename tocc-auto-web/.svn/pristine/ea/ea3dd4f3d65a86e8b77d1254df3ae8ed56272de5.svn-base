@@ -1,0 +1,117 @@
+#演练培训--演练场景管理----page页
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgDrillSight)------------------------
+保存:
+  type:xpath
+  value:".//a[text()='保 存']"
+  
+#(Button)-----------------------------------------
+退出:
+  type:xpath
+  value:".//*[@id='addEmgDrillSight']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#-------------------------------------------------
+确定:
+  type:id
+  value:alert_dlg_dlg   
+#-------------------------------------------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgDrillSight)------------------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#-------------------------------------------------
+演练管理:
+  type:xpath
+  value:".//*[contains(text(),'演练管理')]" 
+  
+#-------------------------------------------------
+演练场景管理:
+  type:xpath
+  value:" .//*[contains(text(),'演练场景管理')]" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------
+名称:
+  type:id
+  value:sightName
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------
+专题:
+  type:id
+  value:sightType_of_replace_id1
+专题选择:
+  type:xpath
+  value:".//*[contains(@id,'sightType_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+  
+#查询用(iframe:APP-YLPX-YLGL-YLCJ)----------------
+名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c102']>div"
+  
+
+
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------
+使用程度:
+  type:id
+  value:userTime_of_replace_id2
+使用程度选择:
+  type:xpath
+  value:".//*[contains(@id,'userTime_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+
+#----------------------添加功能---------------------------------- -------------- 
+#(iframe:addEmgDrillSight)------------------------
+演练场景名称:
+  type:id
+  value:sightName
+  
+#(iframe:addEmgDrillSight)------------------------
+所属专题:
+  type:id
+  value:sightType_of_replace_id1
+所属专题选择:
+  type:xpath
+  value:".//*[contains(@id,'sightType_of_replace_id')]/parent::div/div/ul/li/a/span"
+    
+#(iframe:addEmgDrillSight)------------------------
+使用程度:
+  type:id
+  value:userTime_of_replace_id2
+使用程度选择:
+  type:xpath
+  value:".//*[contains(@id,'userTime_of_replace_id')]/parent::div/div/ul/li/a/span"
+
+#(iframe:addEmgDrillSight)------------------------
+场景描述:
+  type:id
+  value:discription
+  
+#----------------------删除功能-------------------------------------------------  
+#(iframe:APP-YLPX-YLGL-YLCJ)----------------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+ 

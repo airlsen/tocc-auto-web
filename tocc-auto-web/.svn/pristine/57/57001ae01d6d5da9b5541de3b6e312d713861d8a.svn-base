@@ -1,0 +1,120 @@
+#信息发布--模板管理----page页
+#(iframe:APP-XXFB-MB)-----------------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:APP-XXFB-MB)--------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:APP-XXFB-MB)--------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgMsgTemplate)---------------
+保存:
+  type:xpath
+  value:".//*[text()='保存']"
+  
+#(Button)-------------
+退出:
+  type:xpath
+  value:".//*[@id='addEmgMsgTemplate']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#(iframe:addEmgMsgTemplate)---------------
+确定:
+  type:id
+  value:alert_dlg_dlg  
+
+  
+#(iframe:addEmgMsgTemplate)---------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgMsgTemplate)---------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#---------------
+模板管理:
+  type:xpath
+  value:".//*[@class='accordion-group'][@title='模版管理']" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:APP-XXFB-MB)------------------
+模板名称选择:
+  type:id
+  value:name
+  
+#(iframe:APP-XXFB-MB)---------------
+模板内容选择:
+  type:id
+  value:content
+
+#(iframe:APP-XXFB-MB)---------------
+状态选择:
+  type:id
+  value:status_of_replace_id1
+  
+#(iframe:APP-XXFB-MB)---------------
+信息类别选择:
+  type:id
+  value:msgType_of_replace_id2
+
+#(iframe:APP-XXFB-MB)---------------
+内容类别选择:
+  type:id
+  value:contentType_of_replace_id3
+#(iframe:APP-XXFB-MB)------------------
+选择:
+  type:xpath
+  value:".//*[text()='%s']"
+  
+#查询用(iframe:APP-XXFB-MB)------------------
+模板名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1001|c']>div"
+
+
+#----------------------添加功能----------------------------------  
+#(iframe:addEmgMsgTemplate)-------------
+模板名称:
+  type:id
+  value:name
+  
+#(iframe:addEmgMsgTemplate)-----------
+信息类别:
+  type:id
+  value:msgType_of_replace_id1
+    
+#(iframe:addEmgMsgTemplate)--------
+内容类别:
+  type:id
+  value:contentType_of_replace_id2
+
+#(iframe:addEmgMsgTemplate)--------
+状态:
+  type:id
+  value:status_of_replace_id3
+  
+
+#(iframe:addEmgMsgTemplate)--------
+模板内容:
+  type:xpath
+  value:".//*[@id='baidu_editor_0']/html/body"
+  
+#----------------------删除功能----------------------------------  
+#(iframe:APP-XXFB-MB)-------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+ 

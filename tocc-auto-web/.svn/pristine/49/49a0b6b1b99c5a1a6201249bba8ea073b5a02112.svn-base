@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="系统登录(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+      <class name="com.auto.cases.login.SystemLoginTest">
+        <methods>
+          <include name="login" invocation-numbers="4 5"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.auto.cases.login.SystemLoginTest -->
+      <class name="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test -->
+      <class name="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test -->
+    </classes>
+  </test> <!-- 系统登录(failed) -->
+  <test name="信息发布_公告发布管理(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+      <class name="com.auto.cases.login.SystemLoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.auto.cases.login.SystemLoginTest -->
+      <class name="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test -->
+      <class name="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test">
+        <methods>
+          <include name="add"/>
+          <include name="query"/>
+          <include name="delete"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test -->
+    </classes>
+  </test> <!-- 信息发布_公告发布管理(failed) -->
+  <test name="演练培训_演练管理_演练场景管理(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="delete"/>
+          <include name="add"/>
+          <include name="query"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+      <class name="com.auto.cases.login.SystemLoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.auto.cases.login.SystemLoginTest -->
+      <class name="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test -->
+      <class name="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test -->
+    </classes>
+  </test> <!-- 演练培训_演练管理_演练场景管理(failed) -->
+  <test name="演练培训_培训管理_培训课程(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="delete"/>
+          <include name="query"/>
+          <include name="add"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+      <class name="com.auto.cases.login.SystemLoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.auto.cases.login.SystemLoginTest -->
+      <class name="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test -->
+      <class name="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test -->
+    </classes>
+  </test> <!-- 演练培训_培训管理_培训课程(failed) -->
+  <test name="数据管理_外场设备_视频监控设备管理(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+      <class name="com.auto.cases.login.SystemLoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.auto.cases.login.SystemLoginTest -->
+      <class name="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test">
+        <methods>
+          <include name="delete"/>
+          <include name="add"/>
+          <include name="startTest"/>
+          <include name="query"/>
+        </methods>
+      </class> <!-- com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test -->
+      <class name="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test">
+        <methods>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test -->
+    </classes>
+  </test> <!-- 数据管理_外场设备_视频监控设备管理(failed) -->
+</suite> <!-- Failed suite [Suite] -->

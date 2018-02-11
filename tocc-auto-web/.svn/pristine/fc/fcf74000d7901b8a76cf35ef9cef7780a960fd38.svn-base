@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="15" time="459.019" errors="0" skipped="0" tests="55" name="TestSuite">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="LOGONSERVER" value="\\ASEN-PC"/>
+    <property name="env.CONFIGSETROOT" value="C:\Windows\ConfigSetRoot"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_17\jre"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="env.FTP_PASSIVE" value="1"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TVT" value="C:\Program Files (x86)\Lenovo"/>
+    <property name="LG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="JENKINS_URL" value="http://192.168.1.34:8080/jenkins/"/>
+    <property name="CATALINA_HOME" value="E:\Program Files\apache-tomcat-7.0.67"/>
+    <property name="env.COMMPATH" value="C:\Program Files\Lenovo\Communications Utility"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_17\jre\lib\endorsed"/>
+    <property name="env.POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="env.USERNAME" value="Asen"/>
+    <property name="env.HUDSON_HOME" value="C:\Users\Asen\.jenkins"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="Asen-PC"/>
+    <property name="env.LG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="env.COMPUTERNAME" value="ASEN-PC"/>
+    <property name="JAVA_OPTS" value=" -Djava.util.logging.config.file=&quot;E:\Program Files\apache-tomcat-7.0.67\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="#envTSLOGTSLOG3380" value="4214912"/>
+    <property name="CURR_DIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="env.NODE_NAME" value="master"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="env.ANDROID_HOME" value="E:\Program Files\android\adt-bundle-windows-x86_64"/>
+    <property name="JOB_NAME" value="Tocc-auto-web"/>
+    <property name="COMPUTERNAME" value="ASEN-PC"/>
+    <property name="env.MAVEN_OPTS" value="-Xms256m -Xmx512m -Dfile.encoding=UTF-8"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="READYAPPS" value="C:\SWTOOLS\ReadyApps"/>
+    <property name="env.NODE_LABELS" value="master"/>
+    <property name="EXECUTABLE" value="E:\Program Files\apache-tomcat-7.0.67\bin\catalina.bat"/>
+    <property name="ShellLaunch{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}" value="ShellExt"/>
+    <property name="env.JENKINS_SERVER_COOKIE" value="36f85ff2fca161cc"/>
+    <property name="ANDROID_HOME" value="E:\Program Files\android\adt-bundle-windows-x86_64"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="env.USERPROFILE" value="C:\Users\Asen"/>
+    <property name="env.SVN_REVISION" value="16"/>
+    <property name="env.JAVA_OPTS" value=" -Djava.util.logging.config.file=&quot;E:\Program Files\apache-tomcat-7.0.67\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="user.name" value="Asen"/>
+    <property name="env.LANG" value="zh_CN.UTF-8"/>
+    <property name="SVN_REVISION" value="16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\Asen\AppData\Local"/>
+    <property name="env.READYAPPS" value="C:\SWTOOLS\ReadyApps"/>
+    <property name="env.WINDOWS_TRACING_LOGFILE" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="env.CURRENT_DIR" value="E:\Program Files\apache-tomcat-7.0.67\bin"/>
+    <property name="env.JAVA_TOOL_OPTIONS" value="-Dfile.encoding=UTF8"/>
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
+    <property name="=E:" value="E:\Program Files\apache-tomcat-7.0.67\bin"/>
+    <property name="surefire.test.class.path" value="E:\workspace\Tocc-auto-web\target\test-classes;E:\workspace\Tocc-auto-web\target\classes;E:\maven\repository\junit\junit\3.8.1\junit-3.8.1.jar;E:\maven\repository\com\opera\operadriver\1.5\operadriver-1.5.jar;E:\maven\repository\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;E:\maven\repository\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;E:\maven\repository\com\google\guava\guava\14.0\guava-14.0.jar;E:\maven\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;E:\maven\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;E:\maven\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-java\2.44.0\selenium-java-2.44.0.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.44.0\selenium-chrome-driver-2.44.0.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-remote-driver\2.44.0\selenium-remote-driver-2.44.0.jar;E:\maven\repository\com\google\code\gson\gson\2.3\gson-2.3.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-api\2.44.0\selenium-api-2.44.0.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.44.0\selenium-htmlunit-driver-2.44.0.jar;E:\maven\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;E:\maven\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;E:\maven\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;E:\maven\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\maven\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;E:\maven\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;E:\maven\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;E:\maven\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;E:\maven\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;E:\maven\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;E:\maven\repository\org\w3c\css\sac\1.3\sac-1.3.jar;E:\maven\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\maven\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;E:\maven\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;E:\maven\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;E:\maven\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;E:\maven\repository\org\apache\httpcomponents\httpclient\4.3.4\httpclient-4.3.4.jar;E:\maven\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.44.0\selenium-firefox-driver-2.44.0.jar;E:\maven\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-ie-driver\2.44.0\selenium-ie-driver-2.44.0.jar;E:\maven\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-safari-driver\2.44.0\selenium-safari-driver-2.44.0.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-support\2.44.0\selenium-support-2.44.0.jar;E:\maven\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;E:\maven\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;E:\maven\repository\org\seleniumhq\selenium\selenium-server\2.44.0\selenium-server-2.44.0.jar;E:\maven\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;E:\maven\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;E:\maven\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;E:\maven\repository\org\mortbay\jetty\servlet-api-2.5\6.1.9\servlet-api-2.5-6.1.9.jar;E:\maven\repository\org\seleniumhq\selenium\jetty-repacked\7.6.1\jetty-repacked-7.6.1.jar;E:\maven\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;E:\maven\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;E:\maven\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;E:\maven\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;E:\maven\repository\velocity\velocity\1.4\velocity-1.4.jar;E:\maven\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;E:\maven\repository\org\testng\testng\6.8.1\testng-6.8.1.jar;E:\maven\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;E:\maven\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;E:\maven\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar;E:\maven\repository\javax\mail\mail\1.4.5\mail-1.4.5.jar;E:\maven\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;E:\maven\repository\org\tmatesoft\svnkit\svnkit\1.8.7\svnkit-1.8.7.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.svnkit-trilead-ssh2\0.0.7\jsch.agentproxy.svnkit-trilead-ssh2-0.0.7.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.core\0.0.7\jsch.agentproxy.core-0.0.7.jar;E:\maven\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;E:\maven\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;E:\maven\repository\com\trilead\trilead-ssh2\1.0.0-build217\trilead-ssh2-1.0.0-build217.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.7\jsch.agentproxy.connector-factory-0.0.7.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.usocket-jna\0.0.7\jsch.agentproxy.usocket-jna-0.0.7.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.usocket-nc\0.0.7\jsch.agentproxy.usocket-nc-0.0.7.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.sshagent\0.0.7\jsch.agentproxy.sshagent-0.0.7.jar;E:\maven\repository\com\jcraft\jsch.agentproxy.pageant\0.0.7\jsch.agentproxy.pageant-0.0.7.jar;E:\maven\repository\de\regnis\q\sequence\sequence-library\1.0.3\sequence-library-1.0.3.jar;E:\maven\repository\org\tmatesoft\sqljet\sqljet\1.1.10\sqljet-1.1.10.jar;E:\maven\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;E:\maven\repository\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;E:\maven\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;E:\maven\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;E:\maven\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\maven\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\maven\repository\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;E:\maven\repository\org\jyaml\jyaml\1.3\jyaml-1.3.jar;E:\maven\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;E:\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;E:\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;E:\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Asen\AppData\Local"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-Tocc-auto-web-10"/>
+    <property name="TERM" value="dumb"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="TVTCOMMON" value="C:\Program Files (x86)\Common Files\Lenovo"/>
+    <property name="LOG_FILE" value="C:\Users\Asen\AppData\Local\Temp\ihp_custom_batches.log"/>
+    <property name="env.TITLE" value="Tomcat"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main E:\Program Files\apache-maven-3.0.4 E:\Program Files\apache-tomcat-7.0.67\webapps\jenkins\WEB-INF\lib\remoting-2.53.2.jar C:\Users\Asen\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.5.jar C:\Users\Asen\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 10954"/>
+    <property name="HUDSON_URL" value="http://192.168.1.34:8080/jenkins/"/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="36f85ff2fca161cc"/>
+    <property name="env.APPDATA" value="C:\Users\Asen\AppData\Roaming"/>
+    <property name="env.SVN_REVISION_1" value="16"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.7.0_17/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\SWTOOLS\ReadyApps;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;E:\Program Files\apache-tomcat-7.0.67\bin;E:\Program Files\apache-maven-3.0.4\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;E:\Program Files\android\adt-bundle-windows-x86_64\sdk\platform-tools;E:\Program Files\android\adt-bundle-windows-x86_64\sdk\tools;C:\Users\Asen\AppData\Roaming\npm"/>
+    <property name="env.LOGGER_CONFIG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\ltlogconf.xml"/>
+    <property name="env.WINDIR" value="C:\Windows"/>
+    <property name="env.BUILD_TAG" value="jenkins-Tocc-auto-web-10"/>
+    <property name="LOGGER_CONFIG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\ltlogconf.xml"/>
+    <property name="env.LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asen\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Asen\AppData\Roaming"/>
+    <property name="env.TVTCOMMON" value="C:\Program Files (x86)\Common Files\Lenovo"/>
+    <property name="user.language" value="zh"/>
+    <property name="env.LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;E:\Program Files\apache-tomcat-7.0.67\conf\logging.properties&quot;"/>
+    <property name="CATALINA_TMPDIR" value="E:\Program Files\apache-tomcat-7.0.67\temp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://192.168.1.34:8080/jenkins/job/Tocc-auto-web/10/"/>
+    <property name="env.CATALINA_BASE" value="E:\Program Files\apache-tomcat-7.0.67"/>
+    <property name="JAVA_ENDORSED_DIRS" value="E:\Program Files\apache-tomcat-7.0.67\endorsed"/>
+    <property name="ACTION" value="start"/>
+    <property name="M2_HOME" value="E:\Program Files\apache-maven-3.0.4"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="env.#ENVTSLOGTSLOG3380" value="4214912"/>
+    <property name="env.CURR_DIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.JOB_NAME" value="Tocc-auto-web"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="localRepository" value="E:\maven\repository"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="env.BUILD_URL" value="http://192.168.1.34:8080/jenkins/job/Tocc-auto-web/10/"/>
+    <property name="env.M2_HOME" value="E:\Program Files\apache-maven-3.0.4"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="env.JAVA_ENDORSED_DIRS" value="E:\Program Files\apache-tomcat-7.0.67\endorsed"/>
+    <property name="SVN_REVISION_1" value="16"/>
+    <property name="CATALINA_BASE" value="E:\Program Files\apache-tomcat-7.0.67"/>
+    <property name="env.TOMCAT_HOME" value="E:\Program Files\apache-tomcat-7.0.67"/>
+    <property name="TARGETDIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="HUDSON_SERVER_COOKIE" value="36f85ff2fca161cc"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.7.0_17"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.7.0_17\bin\java.exe&quot;"/>
+    <property name="env.EXECUTABLE" value="E:\Program Files\apache-tomcat-7.0.67\bin\catalina.bat"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.7.0_17\bin\java.exe&quot;"/>
+    <property name="env.POM_ARTIFACTID" value="Tocc-auto-web"/>
+    <property name="MAVEN_HOME" value="E:\Program Files\apache-maven-3.0.4"/>
+    <property name="env.LOGONSERVER" value="\\ASEN-PC"/>
+    <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Asen\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;E:\Program Files\apache-tomcat-7.0.67\conf\logging.properties&quot;"/>
+    <property name="ANALYSIS_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.HUDSON_SERVER_COOKIE" value="36f85ff2fca161cc"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="env.ANALYSIS_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.USERDOMAIN" value="Asen-PC"/>
+    <property name="env.TARGETDIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env._EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.7.0_17\bin\java.exe&quot;"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
+    <property name="HOMEPATH" value="\Users\Asen"/>
+    <property name="env.BUILD_NUMBER" value="10"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="env.TERM" value="dumb"/>
+    <property name="env.TMP" value="C:\Users\Asen\AppData\Local\Temp"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="10"/>
+    <property name="env.JOB_URL" value="http://192.168.1.34:8080/jenkins/job/Tocc-auto-web/"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="maven3.interceptor" value="C:\Users\Asen\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.5.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Program Files\apache-maven-3.0.4/bin;C:\Program Files\Java\jdk1.7.0_17/bin;C:\Program Files\Java\jdk1.7.0_17/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\SWTOOLS\ReadyApps;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;E:\Program Files\apache-tomcat-7.0.67\bin;E:\Program Files\apache-maven-3.0.4\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;E:\Program Files\android\adt-bundle-windows-x86_64\sdk\platform-tools;E:\Program Files\android\adt-bundle-windows-x86_64\sdk\tools;C:\Users\Asen\AppData\Roaming\npm;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="env.PATH" value="E:\Program Files\apache-maven-3.0.4/bin;C:\Program Files\Java\jdk1.7.0_17/bin;C:\Program Files\Java\jdk1.7.0_17/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\SWTOOLS\ReadyApps;C:\Program Files\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jdk1.7.0_17\jre\bin;E:\Program Files\apache-tomcat-7.0.67\bin;E:\Program Files\apache-maven-3.0.4\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;E:\Program Files\android\adt-bundle-windows-x86_64\sdk\platform-tools;E:\Program Files\android\adt-bundle-windows-x86_64\sdk\tools;C:\Users\Asen\AppData\Roaming\npm"/>
+    <property name="env.PROGRAMW6432" value="C:\Program Files"/>
+    <property name="env.HUDSON_URL" value="http://192.168.1.34:8080/jenkins/"/>
+    <property name="env.JENKINS_URL" value="http://192.168.1.34:8080/jenkins/"/>
+    <property name="POM_GROUPID" value="com.tocc.auto.test"/>
+    <property name="POM_ARTIFACTID" value="Tocc-auto-web"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="basedir" value="E:\workspace\Tocc-auto-web"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.7.0_17\bin\jdb.exe&quot;"/>
+    <property name="LR_ROOT" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="JOB_URL" value="http://192.168.1.34:8080/jenkins/job/Tocc-auto-web/"/>
+    <property name="env.LOG_FILE" value="C:\Users\Asen\AppData\Local\Temp\ihp_custom_batches.log"/>
+    <property name="env.JENKINS_HOME" value="C:\Users\Asen\.jenkins"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="env.SYSTEMROOT" value="C:\Windows"/>
+    <property name="env._RUNJDB" value="&quot;C:\Program Files\Java\jdk1.7.0_17\bin\jdb.exe&quot;"/>
+    <property name="env.LR_ROOT" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="FTP_PASSIVE" value="1"/>
+    <property name="JENKINS_HOME" value="C:\Users\Asen\.jenkins"/>
+    <property name="TEMP" value="C:\Users\Asen\AppData\Local\Temp"/>
+    <property name="BUILD_ID" value="10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_17\jre\bin"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="VUGEN_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="easyplussdk" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+    <property name="env.PROCESSOR_REVISION" value="3d04"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.POM_DISPLAYNAME" value="Tocc-auto-web"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\Windows\ConfigSetRoot"/>
+    <property name="env.ACTION" value="start"/>
+    <property name="HUDSON_HOME" value="C:\Users\Asen\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="E:\Program Files\apache-maven-3.0.4/bin"/>
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jdk1.7.0_17"/>
+    <property name="env.MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="CURRENT_DIR" value="E:\Program Files\apache-tomcat-7.0.67\bin"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_17"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="env.MAVEN_HOME" value="E:\Program Files\apache-maven-3.0.4"/>
+    <property name="USERPROFILE" value="C:\Users\Asen"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_17\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Asen"/>
+    <property name="USERNAME" value="Asen"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="env._RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.7.0_17\bin\java.exe&quot;"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_17"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="COMMPath" value="C:\Program Files\Lenovo\Communications Utility"/>
+    <property name="user.dir" value="E:\workspace\Tocc-auto-web"/>
+    <property name="SVN_URL" value="svn://192.168.1.34/framework/Tocc-auto-web"/>
+    <property name="env.SHELLLAUNCH{A81BA54B-CCFE-4204-8E79-A68C0FDFA5CF}" value="ShellExt"/>
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="env.APR_ICONV_PATH" value="C:\Program Files (x86)\Subversion\iconv"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="TMP" value="C:\Users\Asen\AppData\Local\Temp"/>
+    <property name="env.TVT" value="C:\Program Files (x86)\Lenovo"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="env.SVN_URL" value="svn://192.168.1.34/framework/Tocc-auto-web"/>
+    <property name="webdriver.chrome.driver" value="E:\workspace\Tocc-auto-web/res/chromedriver.exe"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.class.path" value="C:\Users\Asen\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-agent-1.5.jar;E:\Program Files\apache-maven-3.0.4\boot\plexus-classworlds-2.4.jar"/>
+    <property name="env.HOMEPATH" value="\Users\Asen"/>
+    <property name="SWSHARE" value="C:\SWSHARE"/>
+    <property name="MAVEN_OPTS" value="-Xms256m -Xmx512m -Dfile.encoding=UTF-8"/>
+    <property name="JAVA_TOOL_OPTIONS" value="-Dfile.encoding=UTF8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\Asen\.jenkins\jobs\Tocc-auto-web\workspace"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="env.WINDOWS_TRACING_FLAGS" value="3"/>
+    <property name="env.POM_PACKAGING" value="jar"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="LANG" value="zh_CN.UTF-8"/>
+    <property name="env.BUILD_ID" value="10"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.SWSHARE" value="C:\SWSHARE"/>
+    <property name="file.separator" value="\"/>
+    <property name="LR_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.EASYPLUSSDK" value="&quot;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin&quot;"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_17\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_17\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_17\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="TOMCAT_HOME" value="E:\Program Files\apache-tomcat-7.0.67"/>
+    <property name="env.VUGEN_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.WORKSPACE" value="C:\Users\Asen\.jenkins\jobs\Tocc-auto-web\workspace"/>
+    <property name="APR_ICONV_PATH" value="C:\Program Files (x86)\Subversion\iconv"/>
+    <property name="SVN_URL_1" value="svn://192.168.1.34/framework/Tocc-auto-web"/>
+    <property name="env.TEMP" value="C:\Users\Asen\AppData\Local\Temp"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.7.0_17/bin"/>
+    <property name="user.country" value="CN"/>
+    <property name="env.EXECUTOR_NUMBER" value="0"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="env.LR_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="maven.home" value="E:\Program Files\apache-maven-3.0.4"/>
+    <property name="env.=E:" value="E:\Program Files\apache-tomcat-7.0.67\bin"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="env.CATALINA_TMPDIR" value="E:\Program Files\apache-tomcat-7.0.67\temp"/>
+    <property name="env.POM_GROUPID" value="com.tocc.auto.test"/>
+    <property name="env.SVN_URL_1" value="svn://192.168.1.34/framework/Tocc-auto-web"/>
+    <property name="env.HUDSON_COOKIE" value="fcee66df-ad4b-4c67-b839-ea09ce5c68fc"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="env.CATALINA_HOME" value="E:\Program Files\apache-tomcat-7.0.67"/>
+    <property name="POM_DISPLAYNAME" value="Tocc-auto-web"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase time="25.643" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="4.567" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="4.436" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="2.866" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="2.861" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="4.346" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="4.311" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="2.827" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="15.642" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add"/>
+  <testcase time="0.438" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="delete"/>
+  <testcase time="0.526" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="delete"/>
+  <testcase time="2.356" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query"/>
+  <testcase time="1.972" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query"/>
+  <testcase time="1.921" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query"/>
+  <testcase time="50.597" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add"/>
+  <testcase time="2.317" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add"/>
+  <testcase time="3.704" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add"/>
+  <testcase time="5.922" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add"/>
+  <testcase time="3.697" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add"/>
+  <testcase time="3.693" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add"/>
+  <testcase time="0.4" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete"/>
+  <testcase time="0.408" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete"/>
+  <testcase time="0.336" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete"/>
+  <testcase time="0.348" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete"/>
+  <testcase time="1.713" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query"/>
+  <testcase time="3.855" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query"/>
+  <testcase time="1.561" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query"/>
+  <testcase time="1.507" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test.query(Drilltraining_Drillscenemanager_test.java:58)
+</failure>
+    <system-out>[]
+</system-out>
+  </testcase>
+  <testcase time="0.087" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.04" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.032" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.031" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.029" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.029" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.03" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.029" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="0.029" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:464)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="62.202" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="delete">
+    <failure message="Failed to click element [null]" type="java.lang.AssertionError">java.lang.AssertionError: Failed to click element [null]
+	at org.testng.Assert.fail(Assert.java:83)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:154)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.deletes(Trainingcoursebusiness.java:110)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+Caused by: java.lang.Exception: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:167)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:171)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:171)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:171)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:148)
+	... 23 more
+Caused by: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:163)
+	... 27 more
+</failure>
+  </testcase>
+  <testcase time="16.528" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <failure message="Failed to click element [null]" type="java.lang.AssertionError">java.lang.AssertionError: Failed to click element [null]
+	at org.testng.Assert.fail(Assert.java:83)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:154)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:85)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+Caused by: java.lang.Exception: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:167)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:171)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:171)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:171)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:148)
+	... 23 more
+Caused by: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:163)
+	... 27 more
+</failure>
+  </testcase>
+  <testcase time="2.031" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <failure message="chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;54.0.1.150&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: a48259c0a67652e1c4c2271f8c4f0802
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir9184_23577}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;54.0.1.150&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: a48259c0a67652e1c4c2271f8c4f0802
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir9184_23577}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:416)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+</failure>
+  </testcase>
+  <testcase time="2.017" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <failure message="chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;54.0.1.150&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: a48259c0a67652e1c4c2271f8c4f0802
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir9184_23577}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;54.0.1.150&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: a48259c0a67652e1c4c2271f8c4f0802
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir9184_23577}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:416)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+</failure>
+  </testcase>
+  <testcase time="22.023" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="2.245" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="1.755" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="3.271" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="13.823" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="9.593" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <failure message="expected [] but found [增加成功]" type="java.lang.AssertionError">java.lang.AssertionError: expected [] but found [增加成功]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+</failure>
+  </testcase>
+  <testcase time="5.993" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="3.816" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="3.72" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add"/>
+  <testcase time="5.175" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="delete"/>
+  <testcase time="2.636" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="delete"/>
+  <testcase time="1.622" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query"/>
+  <testcase time="1.669" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query"/>
+  <testcase time="1.553" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query"/>
+</testsuite>

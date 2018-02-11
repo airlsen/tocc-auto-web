@@ -1,0 +1,124 @@
+#数据管理--方案管理--危化品救援处置方案----page页
+#(iframe:APP-SJGL-FAGL-WHPCZ)----------------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:APP-SJGL-FAGL-WHPCZ)----------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:AAPP-SJGL-FAGL-WHPCZ)----------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:id="addEmgDangerGoodProcScheme")-----------------------
+保存:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(Button)-----------------------------------------
+退出:
+  type:xpath
+  value:".//*[@id='addResCameraPlace']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#-------------------------------------------------
+确定:
+  type:id
+  value:alert_dlg_dlg
+#-------------------------------------------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgDrillSight)------------------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#-------------------------------------------------
+外场设备:
+  type:xpath
+  value:".//*[contains(text(),'外场设备')]" 
+  
+#-------------------------------------------------
+视频监控设备管理:
+  type:xpath
+  value:".//*[contains(text(),'视频监控设备管理')]" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+地点名称:
+  type:id
+  value:placeName
+
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+位置类型:
+  type:id
+  value:placeCode_of_replace_id1
+位置类型选择:
+  type:xpath
+  value:".//*[contains(@id,'placeCode_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+  
+#查询用(iframe:APP-SJGL-WCSB-SPGL)----------------
+名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c102']>div"
+
+
+#----------------------添加功能---------------------------------- -------------- 
+#(iframe:addResCameraPlace)-----------------------------
+名称:
+  type:id
+  value:placeName
+#(iframe:addResCameraPlace)-----------------------------
+地址:
+  type:id
+  value:address
+  
+#(iframe:addResCameraPlace)-----------------------------
+类型:
+  type:id
+  value:placeCode_of_replace_id1
+类型选择:
+  type:xpath
+  value:".//*[contains(@id,'placeCode_of_replace_id')]/parent::div/div/ul/li/a/span"
+    
+#(iframe:addResCameraPlace)-----------------------------
+行政区域:
+  type:id
+  value:districtId_of_replace_id1
+行政区域选择:
+  type:xpath
+  value:".//*[contains(@id,'districtId_of_replace_id')]/parent::div/div/ul/li/a/span"
+  
+#(iframe:addResCameraPlace)-----------------------------  
+状态:
+  type:id
+  value:status_of_replace_id2
+状态选择:
+  type:xpath
+  value:".//*[contains(@id,'status_of_replace_id')]/parent::div/div/ul/li/a/span"
+  
+#(iframe:addResCameraPlace)----------------------------- 
+经度:
+  type:id
+  value:longitude
+  
+#(iframe:addResCameraPlace)----------------------------- 
+纬度:
+  type:id
+  value:latitude 
+  
+#----------------------删除功能-------------------------------------------------  
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+ 

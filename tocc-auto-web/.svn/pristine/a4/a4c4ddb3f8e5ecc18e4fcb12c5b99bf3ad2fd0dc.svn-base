@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="4" time="377.039" errors="0" skipped="61" tests="71" name="TestSuite">
+  <properties>
+    <property name="env.JAVA_TOOL_OPTIONS" value="-Dfile.encoding=UTF8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="env.SYSTEMROOT" value="C:\Windows"/>
+    <property name="env.MOZ_PLUGIN_PATH" value="D:\Program Files\Foxit Reader\plugins\"/>
+    <property name="localRepository" value="E:\Repositories\Maven"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="env.CURR_DIR" value="C:\Program Files\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.LSERVRC" value="C:\Program Files\Common Files\Mercury Interactive\License Manager\lservrc"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_13\jre\classes"/>
+    <property name="env.COMPUTERNAME" value="JOHN-PC"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.7.0_13-b20"/>
+    <property name="env.HOMEPATH" value="\Users\John"/>
+    <property name="user.name" value="John"/>
+    <property name="maven.build.version" value="Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-17 23:22:22+0800)"/>
+    <property name="env.WINDOWS_TRACING_FLAGS" value="3"/>
+    <property name="env.PATH" value="C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\Apache Software Foundation\Tomcat 7.0;\bin;C:\Program Files\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_13\bin;C:\Program Files\Java\jdk1.7.0_13\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\Python27;E:\apache-ant-1.9.6\bin;F:\Program Files\TortoiseSVN\bin;F:\Program Files\Subversion\bin;E:\apache-maven-3.1.1\bin;C:\Program Files\nodejs\;D:\Program Files\Appium\node_modules\.bin;D:\Program Files\sdk\platform-tools;D:\Program Files\sdk\tools;D:\Program Files\sdk\build-tools\android-4.4\;D:\Program Files\SSH Communications Security\SSH Secure Shell;C:\Users\John\AppData\Roaming\npm;E:\Program Files\eclipse;"/>
+    <property name="user.language" value="zh"/>
+    <property name="env.WINDIR" value="C:\Windows"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\bin"/>
+    <property name="classworlds.conf" value="E:\Program Files\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2303373151439853324.tmp"/>
+    <property name="env.LR_PATH" value="C:\Program Files\HP\LoadRunner\"/>
+    <property name="java.version" value="1.7.0_13"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 23 Stepping 10, GenuineIntel"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="env.TEMP" value="C:\Users\John\AppData\Local\Temp"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="env.WINDOWS_TRACING_LOGFILE" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="env.APR_ICONV_PATH" value="F:\Program Files\Subversion\iconv"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_13\jre"/>
+    <property name="env.ANDROID_HOME" value="D:\Program Files\sdk"/>
+    <property name="env.APPDATA" value="C:\Users\John\AppData\Roaming"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="env.CATALINA_HOME" value="C:\Program Files\Apache Software Foundation\Tomcat 7.0;"/>
+    <property name="env.TOMCAT_HOME" value="C:\Program Files\Apache Software Foundation\Tomcat 7.0;"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="os.version" value="6.1"/>
+    <property name="env.EXTRACTPATH" value="C:\Program Files\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.=::" value="::\"/>
+    <property name="webdriver.chrome.driver" value="E:\Program Files\workspace\Tocc-auto-web/res/chromedriver.exe"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="env.VUGEN_PATH" value="C:\Program Files\HP\LoadRunner\"/>
+    <property name="env.USERPROFILE" value="C:\Users\John"/>
+    <property name="user.variant" value=""/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_13"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env.TERM" value="dumb"/>
+    <property name="env.TMP" value="C:\Users\John\AppData\Local\Temp"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="env.LG_PATH" value="C:\Program Files\HP\LoadRunner\"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.script" value=""/>
+    <property name="user.home" value="C:\Users\John"/>
+    <property name="env.FTP_PASSIVE" value="1"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.CLASSPATH" value=".;C:\Program Files\Java\jdk1.7.0_13\lib;C:\Program Files\Java\jdk1.7.0_13\lib\tools.jar;C:\Program Files\Java\jdk1.7.0_13\lib\dt.jar;C:\Users\John\workspace\WebDriverDemo\libs\ saxon-8.7.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0;\lib\servlet-api.jar;"/>
+    <property name="env.M2_HOME" value="E:\apache-maven-3.1.1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\Apache Software Foundation\Tomcat 7.0;\bin;C:\Program Files\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_13\bin;C:\Program Files\Java\jdk1.7.0_13\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\Python27;E:\apache-ant-1.9.6\bin;F:\Program Files\TortoiseSVN\bin;F:\Program Files\Subversion\bin;E:\apache-maven-3.1.1\bin;C:\Program Files\nodejs\;D:\Program Files\Appium\node_modules\.bin;D:\Program Files\sdk\platform-tools;D:\Program Files\sdk\tools;D:\Program Files\sdk\build-tools\android-4.4\;D:\Program Files\SSH Communications Security\SSH Secure Shell;C:\Users\John\AppData\Roaming\npm;E:\Program Files\eclipse;;."/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="env.LR_ROOT" value="C:\Program Files\HP\LoadRunner\"/>
+    <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="E:\apache-maven-3.1.1"/>
+    <property name="java.class.path" value="E:\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B install"/>
+    <property name="maven.version" value="3.1.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env.CATALINA_BASE" value="C:\Program Files\Apache Software Foundation\Tomcat 7.0;"/>
+    <property name="env.LOGONSERVER" value="\\JOHN-PC"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="env.LOGGER_CONFIG_PATH" value="C:\Program Files\HP\LoadRunner\dat\ltlogconf.xml"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ANT_HOME" value="E:\apache-ant-1.9.6"/>
+    <property name="surefire.test.class.path" value="E:\Program Files\workspace\Tocc-auto-web\target\test-classes;E:\Program Files\workspace\Tocc-auto-web\target\classes;E:\Repositories\Maven\junit\junit\3.8.1\junit-3.8.1.jar;E:\Repositories\Maven\com\opera\operadriver\1.5\operadriver-1.5.jar;E:\Repositories\Maven\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;E:\Repositories\Maven\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;E:\Repositories\Maven\com\google\guava\guava\14.0\guava-14.0.jar;E:\Repositories\Maven\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;E:\Repositories\Maven\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;E:\Repositories\Maven\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-java\2.44.0\selenium-java-2.44.0.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-chrome-driver\2.44.0\selenium-chrome-driver-2.44.0.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-remote-driver\2.44.0\selenium-remote-driver-2.44.0.jar;E:\Repositories\Maven\com\google\code\gson\gson\2.3\gson-2.3.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-api\2.44.0\selenium-api-2.44.0.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-htmlunit-driver\2.44.0\selenium-htmlunit-driver-2.44.0.jar;E:\Repositories\Maven\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;E:\Repositories\Maven\xalan\xalan\2.7.1\xalan-2.7.1.jar;E:\Repositories\Maven\xalan\serializer\2.7.1\serializer-2.7.1.jar;E:\Repositories\Maven\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\Repositories\Maven\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;E:\Repositories\Maven\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;E:\Repositories\Maven\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;E:\Repositories\Maven\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;E:\Repositories\Maven\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;E:\Repositories\Maven\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;E:\Repositories\Maven\org\w3c\css\sac\1.3\sac-1.3.jar;E:\Repositories\Maven\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\Repositories\Maven\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;E:\Repositories\Maven\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;E:\Repositories\Maven\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;E:\Repositories\Maven\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;E:\Repositories\Maven\org\apache\httpcomponents\httpclient\4.3.4\httpclient-4.3.4.jar;E:\Repositories\Maven\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-firefox-driver\2.44.0\selenium-firefox-driver-2.44.0.jar;E:\Repositories\Maven\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-ie-driver\2.44.0\selenium-ie-driver-2.44.0.jar;E:\Repositories\Maven\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-safari-driver\2.44.0\selenium-safari-driver-2.44.0.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-support\2.44.0\selenium-support-2.44.0.jar;E:\Repositories\Maven\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;E:\Repositories\Maven\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;E:\Repositories\Maven\org\seleniumhq\selenium\selenium-server\2.44.0\selenium-server-2.44.0.jar;E:\Repositories\Maven\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;E:\Repositories\Maven\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;E:\Repositories\Maven\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;E:\Repositories\Maven\org\mortbay\jetty\servlet-api-2.5\6.1.9\servlet-api-2.5-6.1.9.jar;E:\Repositories\Maven\org\seleniumhq\selenium\jetty-repacked\7.6.1\jetty-repacked-7.6.1.jar;E:\Repositories\Maven\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;E:\Repositories\Maven\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;E:\Repositories\Maven\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;E:\Repositories\Maven\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;E:\Repositories\Maven\velocity\velocity\1.4\velocity-1.4.jar;E:\Repositories\Maven\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;E:\Repositories\Maven\org\testng\testng\6.8.1\testng-6.8.1.jar;E:\Repositories\Maven\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;E:\Repositories\Maven\com\beust\jcommander\1.27\jcommander-1.27.jar;E:\Repositories\Maven\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar;E:\Repositories\Maven\javax\mail\mail\1.4.5\mail-1.4.5.jar;E:\Repositories\Maven\javax\activation\activation\1.1.1\activation-1.1.1.jar;E:\Repositories\Maven\org\tmatesoft\svnkit\svnkit\1.8.7\svnkit-1.8.7.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.svnkit-trilead-ssh2\0.0.7\jsch.agentproxy.svnkit-trilead-ssh2-0.0.7.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.core\0.0.7\jsch.agentproxy.core-0.0.7.jar;E:\Repositories\Maven\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;E:\Repositories\Maven\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;E:\Repositories\Maven\com\trilead\trilead-ssh2\1.0.0-build217\trilead-ssh2-1.0.0-build217.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.connector-factory\0.0.7\jsch.agentproxy.connector-factory-0.0.7.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.usocket-jna\0.0.7\jsch.agentproxy.usocket-jna-0.0.7.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.usocket-nc\0.0.7\jsch.agentproxy.usocket-nc-0.0.7.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.sshagent\0.0.7\jsch.agentproxy.sshagent-0.0.7.jar;E:\Repositories\Maven\com\jcraft\jsch.agentproxy.pageant\0.0.7\jsch.agentproxy.pageant-0.0.7.jar;E:\Repositories\Maven\de\regnis\q\sequence\sequence-library\1.0.3\sequence-library-1.0.3.jar;E:\Repositories\Maven\org\tmatesoft\sqljet\sqljet\1.1.10\sqljet-1.1.10.jar;E:\Repositories\Maven\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;E:\Repositories\Maven\com\thoughtworks\qdox\qdox\1.12.1\qdox-1.12.1.jar;E:\Repositories\Maven\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;E:\Repositories\Maven\log4j\log4j\1.2.16\log4j-1.2.16.jar;E:\Repositories\Maven\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\Repositories\Maven\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\Repositories\Maven\net\sourceforge\jexcelapi\jxl\2.6\jxl-2.6.jar;E:\Repositories\Maven\org\jyaml\jyaml\1.3\jyaml-1.3.jar;E:\Repositories\Maven\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;E:\Repositories\Maven\com\google\inject\guice\3.0\guice-3.0.jar;E:\Repositories\Maven\javax\inject\javax.inject\1\javax.inject-1.jar;E:\Repositories\Maven\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.io.tmpdir" value="C:\Users\John\AppData\Local\Temp\"/>
+    <property name="env.PROCESSOR_REVISION" value="170a"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\Program Files\workspace\Tocc-auto-web"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\John\AppData\Local"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="basedir" value="E:\Program Files\workspace\Tocc-auto-web"/>
+    <property name="env.USERNAME" value="John"/>
+    <property name="file.encoding" value="UTF8"/>
+    <property name="env.USERDOMAIN" value="John-PC"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="env.ANALYSIS_PATH" value="C:\Program Files\HP\LoadRunner\"/>
+    <property name="env.TARGETDIR" value="C:\Program Files\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.LOG_FILE" value="C:\Users\John\AppData\Local\Temp\ihp_custom_batches.log"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+    <property name="maven.bootclasspath" value="E:\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+  </properties>
+  <testcase time="52.197" classname="com.auto.cases.login.SystemLoginTest" name="login"/>
+  <testcase time="1.806" classname="com.auto.cases.login.SystemLoginTest" name="login"/>
+  <testcase time="1.309" classname="com.auto.cases.login.SystemLoginTest" name="login"/>
+  <testcase time="1.225" classname="com.auto.cases.login.SystemLoginTest" name="login"/>
+  <testcase time="10.514" classname="com.auto.cases.login.SystemLoginTest" name="login"/>
+  <testcase time="7.805" classname="com.auto.cases.login.SystemLoginTest" name="login"/>
+  <testcase time="246.642" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="startTest">
+    <failure message="chrome not reachable
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: 13b8b0ef19bdb7f597d757d3ac545c2c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir7120_22205}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: 13b8b0ef19bdb7f597d757d3ac545c2c
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir7120_22205}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at sun.proxy.$Proxy11.toString(Unknown Source)
+	at java.lang.String.valueOf(String.java:2854)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.util.SeleniumUtil.switchtoString(SeleniumUtil.java:254)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:151)
+	at com.auto.page.login.SystemLoginPage.InputVerification(SystemLoginPage.java:97)
+	at com.auto.business.login.GlobalBusiness.login(GlobalBusiness.java:27)
+	at com.auto.base.BaseParpare.startTest(BaseParpare.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</failure>
+  </testcase>
+  <testcase time="0.002" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.173" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" name="endTest">
+    <skipped/>
+  </testcase>
+  <testcase time="10.545" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="startTest">
+    <failure message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 81 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: c36ec36199a842257625b5257ae3888a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir8116_8802}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 81 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: c36ec36199a842257625b5257ae3888a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir8116_8802}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at sun.proxy.$Proxy11.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:860)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+	at com.util.HighlightElement.highlightElement(HighlightElement.java:17)
+	at com.auto.page.login.SystemLoginPage.ClickReset(SystemLoginPage.java:116)
+	at com.auto.business.login.GlobalBusiness.login(GlobalBusiness.java:21)
+	at com.auto.base.BaseParpare.startTest(BaseParpare.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.141" classname="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test" name="endTest">
+    <skipped/>
+  </testcase>
+  <testcase time="24.016" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="startTest">
+    <failure message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: 4e70831b1ee2f54ede0044cd89b4c632
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir4216_26766}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: 4e70831b1ee2f54ede0044cd89b4c632
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir4216_26766}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at sun.proxy.$Proxy11.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:860)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+	at com.util.HighlightElement.highlightElement(HighlightElement.java:17)
+	at com.auto.page.login.SystemLoginPage.ClickReset(SystemLoginPage.java:116)
+	at com.auto.business.login.GlobalBusiness.login(GlobalBusiness.java:21)
+	at com.auto.base.BaseParpare.startTest(BaseParpare.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.009" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.171" classname="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test" name="endTest">
+    <skipped/>
+  </testcase>
+  <testcase time="5.622" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="startTest">
+    <failure message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: 2347cd71bfb21e2517cccae2140b8453
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir652_8252}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;John-PC&apos;, ip: &apos;192.168.83.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_13&apos;
+Session ID: 2347cd71bfb21e2517cccae2140b8453
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\John\AppData\Local\Temp\scoped_dir652_8252}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=46.0.2490.86, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at sun.proxy.$Proxy11.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:860)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:145)
+	at com.google.common.collect.Lists.newArrayList(Lists.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+	at com.util.HighlightElement.highlightElement(HighlightElement.java:17)
+	at com.auto.page.login.SystemLoginPage.ClickReset(SystemLoginPage.java:116)
+	at com.auto.business.login.GlobalBusiness.login(GlobalBusiness.java:21)
+	at com.auto.base.BaseParpare.startTest(BaseParpare.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.002" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="add">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="delete">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.001" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="query">
+    <skipped/>
+  </testcase>
+  <testcase time="0.148" classname="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test" name="endTest">
+    <skipped/>
+  </testcase>
+</testsuite>

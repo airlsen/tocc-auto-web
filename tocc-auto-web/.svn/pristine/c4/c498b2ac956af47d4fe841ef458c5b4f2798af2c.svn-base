@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="演练培训" preserve-order="true" parallel="tests"
+	thread-count="1" verbose="1">
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="com.auto.test.plugins.arrow.TestResultListener" />
+		<listener class-name="com.auto.test.plugins.arrow.RetryListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	
+	<test name="演练培训_演练管理_演练场景管理" annotations="jdk" preserve-order="true">
+		<classes>
+			<!-- 测试_演练培训_演练管理_演练场景管理功能 -->
+			<class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+				<methods>
+					<include name="add" /><!-- 添加功能 -->
+					<include name="delete" /><!-- 删除功能 -->
+					<include name="query" /><!-- 查询功能 -->					
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="演练培训_培训管理_培训课程" annotations="jdk" preserve-order="true">
+		<classes>
+			<!-- 测试_演练培训_培训管理_培训课程功能 -->
+			<class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+				<methods>
+					<include name="add" /><!-- 添加功能 -->
+					<include name="delete" /><!-- 删除功能 -->
+					<include name="query" /><!-- 查询功能 -->					
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

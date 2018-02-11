@@ -1,0 +1,455 @@
+<html>
+<head>
+<title>TestNG:  演练培训_培训管理_培训课程</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>演练培训_培训管理_培训课程</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 31 16:07:52 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64521 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=12, 课程名称=, 授课老师=张老师, 课程描述=应急管理, 预期结果=课程名称不能为空}<br/>
+<a href="#Output-1355857" onClick='toggleBox("Output-1355857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1355857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1355857">
+[2015_12_31_16_08_14_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_14_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1355857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1355857'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=10, 课程名称=老师, 授课老师=, 课程描述=指挥调度, 预期结果=授课老师不能为空}<br/>
+<a href="#Output-2130130545" onClick='toggleBox("Output-2130130545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2130130545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2130130545">
+[2015_12_31_16_08_14_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_14_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2130130545", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2130130545'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete()'><b>delete</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {删除行=4}<br/>
+<a href="#Output-765204744" onClick='toggleBox("Output-765204744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-765204744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-765204744">
+[2015_12_31_16_08_46_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_46_delete] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [确认要删除培训课程应急管理知识吗？] but found [确认要删除培训课程系长吗？]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace765204744", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace765204744'><pre>java.lang.AssertionError: expected [确认要删除培训课程应急管理知识吗？] but found [确认要删除培训课程系长吗？]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete()'><b>delete</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {删除行=5}<br/>
+<a href="#Output-1176818897" onClick='toggleBox("Output-1176818897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1176818897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1176818897">
+[2015_12_31_16_08_47_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_47_delete] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [确认要删除培训课程课程名称12吗？] but found [确认要删除培训课程系长吗？]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1176818897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1176818897'><pre>java.lang.AssertionError: expected [确认要删除培训课程课程名称12吗？] but found [确认要删除培训课程系长吗？]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=应急管理, 课程名称=老师, 授课老师=}<br/>
+<a href="#Output-25161869" onClick='toggleBox("Output-25161869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25161869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25161869">
+[2015_12_31_16_08_51_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_51_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace25161869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25161869'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=其他, 课程名称=火灾救援, 授课老师=}<br/>
+<a href="#Output-1815129799" onClick='toggleBox("Output-1815129799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1815129799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1815129799">
+[2015_12_31_16_08_53_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_53_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1815129799", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1815129799'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=, 课程名称=培训课程, 授课老师=张老师}<br/>
+<a href="#Output-1909716601" onClick='toggleBox("Output-1909716601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1909716601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1909716601">
+[2015_12_31_16_08_54_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_16_08_54_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1909716601", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1909716601'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=, 课程名称=老师, 授课老师=演练场景测试, 课程描述=培训设计, 预期结果=课时必须大于0}</td>
+<td></td>
+<td>15</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=12, 课程名称=火灾救援, 授课老师=演练场景测试, 课程描述=, 预期结果=课程描述不能为空}</td>
+<td></td>
+<td>2</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=1, 课时=12, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=培训课程, 预期结果=增加成功}</td>
+<td></td>
+<td>4</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=考试中心, 预期结果=增加成功}</td>
+<td></td>
+<td>3</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=题库管理, 预期结果=增加成功}</td>
+<td></td>
+<td>3</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=所有, 课程名称=公务员, 授课老师=老师}</td>
+<td></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@4c025303</td></tr>
+</table><p>
+</body>
+</html>

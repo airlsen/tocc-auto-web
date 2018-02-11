@@ -1,0 +1,119 @@
+#配置管理--数据字典管理--行业代码管理----page页
+#(iframe:APP-PZGL-SJZD-HYDM)----------------------------------------------------
+查询:
+  type:id
+  value:btnQuery
+  
+#(iframe:APP-PZGL-SJZD-HYDM)----------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:APP-PZGL-SJZD-HYDM)----------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgDict)-----------------------
+保存:
+  type:id
+  value:saveBtn
+  
+#(Button)-----------------------------------------
+退出:
+  type:xpath
+  value:".//*[@id='addEmgDict']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#-------------------------------------------------
+确定:
+  type:id
+  value:alert_dlg_dlg   
+#-------------------------------------------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgDict)------------------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#-------------------------------------------------
+行业代码管理:
+  type:xpath
+  value:".//*[contains(text(),'行业代码管理')]" 
+  
+#-------------------------------------------------
+数据字典管理:
+  type:xpath
+  value:".//*[contains(text(),'数据字典管理')]" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:APP-PZGL-SJZD-HYDM)----------------------
+名称:
+  type:id
+  value:codeName
+  
+#查询用(iframe:APP-PZGL-SJZD-HYDM)----------------
+名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c104']>div"
+
+
+#----------------------添加功能------------------------------------------------ 
+#(iframe:addEmgDict)-----------------------------
+代码值:
+  type:id
+  value:codeValue
+#(iframe:addEmgDict)-----------------------------
+添加名称:
+  type:id
+  value:codeName
+#(iframe:addEmgDict)-----------------------------
+编码标准:
+  type:id
+  value:referStandard
+变更通知:
+  type:id
+  value:fieldOrder
+    
+#(iframe:addEmgDict)-----------------------------
+状态:
+  type:id
+  value:status
+状态选择:
+  type:xpath
+  value:".//*[contains(@id,'status_of_replace_id')]/parent::div/div/ul/li/a/span"
+#(iframe:addEmgDict)-----------------------------
+备注:
+  type:id
+  value:remark
+#(iframe:addEmgDict)-----------------------------
+代码类别:
+  type:id
+  value:codeType
+#(iframe:addEmgDict)----------------------------- 
+代码类别名:
+  type:id
+  value:codetypeName
+#(iframe:addEmgDict)-----------------------------  
+父代码值:
+  type:id
+  value:parentCodeValue
+ 
+  
+#----------------------删除功能-------------------------------------------------  
+#(iframe:APP-PZGL-SJZD-HYDM)----------------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+
+退出X:
+  type:xpath
+  value:"html/body/div[6]/table/tbody/tr[1]/td[2]/div/div[3]/div"
+
+ 

@@ -1,0 +1,129 @@
+package com.auto.business.drilltraining;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.auto.business.infodelivery.Globalbusiness;
+
+/**
+ *演练培训--培训课程-业务
+ * @author John
+ *
+ */
+public class Trainingcoursebusiness extends Globalbusiness {
+	
+	public static String TipInformation;
+	private static Logger log = Logger.getLogger(Trainingcoursebusiness.class.getName());
+	/**
+	 * 初始化对象
+	 * @throws Exception 
+	 */
+	public Trainingcoursebusiness(WebDriver driver,String function)  {
+		super(driver,function);
+		PageFactory.initElements(driver, this);
+	}	
+
+	/**
+	 * -----添加业务
+	 * @param title
+	 * @param content
+	 * @param flag
+	 * @param expected
+	 * @return
+	 * @throws Exception
+	 */
+	public String add(String courseName,String teachers ,String courseTime,String remark,String flag,String expected)
+			throws Exception{
+		log.info("演练培训--培训管理--培训课程--添加功能---------------------------------------------");
+		log.info("预期结果：    "+expected);
+		
+		//演练场景管理
+		outFrame();		
+		if(isDisplayed(yaml.getElementNoWait("培训课程")) == false){
+			click(yaml.getElement("培训管理"));
+		}
+		click(yaml.getElement("培训课程"));
+		inFrame("SYS-XZYJ-APP-YLPX-PXKC");
+		//click添加		
+		click(yaml.getElement("添加"));
+		outFrame();
+		inFrame("addEmgTrainCourse");
+		//input课程名称
+		sendKeys(yaml.getElement("名称"),courseName);
+		//授课老师
+		sendKeys(yaml.getElement("老师"),teachers);
+		//课程类型
+		click(yaml.getElement("类型"));
+		click(redomElement("类型选择"));
+		//课时
+		sendKeys(yaml.getElement("课时"),courseTime);
+		//授课方式
+		click(yaml.getElement("授课方式"));
+		click(redomElement("授课方式选择"));
+		//考核方式
+		click(yaml.getElement("考核方式"));
+		click(redomElement("考试方式选择"));
+		//input课程描述
+		sendKeys(yaml.getElement("课程描述"),remark);
+		//click保存草稿
+		click(yaml.getElement("保存"));
+
+		return addResult(flag);
+		
+	}
+	/**
+	 * -----查询业务
+	 * @param title
+	 * @param state
+	 * @throws Exception
+	 */
+	public void querys(String courseName,String teachers,String courseType) throws Exception    {
+		log.info("演练培训--培训管理--培训课程--查询功能---------------------------------------------");
+		//回到默认iframe
+		outFrame();
+		click(yaml.getElement("培训课程"));
+		//跳转到iframe
+		inFrame("SYS-XZYJ-APP-YLPX-PXKC");
+		//input课程名称
+		sendKeys(yaml.getElement("课程名称"),courseName);
+		//select信息状态
+		sendKeys(yaml.getElement("授课老师"),courseName);
+		if(courseType !=""){
+			click(yaml.getElement("课程类型"));
+			click(yaml.getElement("课程类型选择",courseType));		
+		}
+		//点击查询
+		click(yaml.getElement("查询"));
+		pause(1);
+	}
+	
+	/**
+	 * -----删除业务
+	 * @return
+	 * @throws Exception
+	 */
+	public String deletes(String index) throws Exception{
+		log.info("演练培训--培训管理--培训课程--删除功能---------------------------------------------");		
+		//任意选择列点击删除
+		outFrame();
+		click(yaml.getElement("培训课程"));
+		//跳转默认iframe
+		inFrame("SYS-XZYJ-APP-YLPX-PXKC");
+		click(yaml.getElements("删除").get(Integer.parseInt(index.trim())));
+		 //获取提示信息
+		 TipInformation=getText(yaml.getElement("弹出信息"));    
+		 //click是
+		 click(yaml.getElement("是"));
+		 outFrame();
+		 click(yaml.getElement("确定"));	
+		 return TipInformation;
+		 
+	}
+	
+
+}
+	
+	
+
+

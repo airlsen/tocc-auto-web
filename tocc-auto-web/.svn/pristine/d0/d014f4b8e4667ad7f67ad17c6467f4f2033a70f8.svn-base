@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [演练培训]" parallel="tests">
+  <listeners>
+    <listener class-name="com.auto.test.plugins.arrow.TestResultListener"/>
+    <listener class-name="com.auto.test.plugins.arrow.RetryListener"/>
+    <listener class-name="com.auto.test.plugins.arrow.PowerEmailableReporter"/>
+  </listeners>
+  <test name="演练培训_演练管理_演练场景管理(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="delete" invocation-numbers="1"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+    </classes>
+  </test> <!-- 演练培训_演练管理_演练场景管理(failed) -->
+  <test name="演练培训_培训管理_培训课程(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test -->
+      <class name="com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test">
+        <methods>
+          <include name="delete" invocation-numbers="1"/>
+          <include name="endTest"/>
+          <include name="query" invocation-numbers="1 2 3"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test -->
+    </classes>
+  </test> <!-- 演练培训_培训管理_培训课程(failed) -->
+</suite> <!-- Failed suite [演练培训] -->

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//conf/env.properties=UTF-8
+encoding//conf/log4j.properties=UTF-8
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/auto/business/login/SystemLoginbusiness.java=UTF-8
+encoding//src/main/java/com/config/ExcelTest.java=UTF-8
+encoding//src/main/java/com/util/CommonMethord.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding/<project>=UTF-8

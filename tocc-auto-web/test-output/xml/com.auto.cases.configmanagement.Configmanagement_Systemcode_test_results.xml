@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="配置管理_数据字典管理_系统代码管理"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.002">
+  <properties />
+  
+  
+            <testcase name="query" time="1.545" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="delete" time="1.488" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="add" time="3.514" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="query" time="1.729" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="delete" time="1.524" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="add" time="2.259" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="add" time="3.291" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="add" time="3.571" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="query" time="1.726" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="add" time="9.039" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+                <testcase name="add" time="3.316" classname="com.auto.cases.configmanagement.Configmanagement_Systemcode_test" />
+      
+</testsuite>

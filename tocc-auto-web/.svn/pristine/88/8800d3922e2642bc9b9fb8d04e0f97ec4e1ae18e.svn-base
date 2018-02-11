@@ -1,0 +1,86 @@
+#模拟演练--模拟事件管理page
+#查询-----------------------------------------------------
+query:
+  type:id
+  value:btnDkQuery
+  
+#添加-------------
+add:
+  type:id
+  value:btnAdd
+  
+#编辑-------------
+save:
+  type:id
+  value:saveBtn
+  
+#删除-------------
+save:
+  type:id
+  value:saveBtn
+      
+
+#----------------------查询功能页----------------------------------
+#名称-------------
+eventName:
+  type:id
+  value:eventName
+  
+#参与单位---------
+drillDept:
+  type:id
+  value:drillDept
+  
+#----------------------添加、编辑功能页----------------------------------
+#保存-------------
+save:
+  type:id
+  value:saveBtn
+  
+#退出-------------
+quit:
+  type:xpath
+  value:".//*[@id='addEmgDrillSight']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+    
+#事件名称--------------
+eventName:
+  type:id
+  value:eventName
+  
+#开始时间----------
+startTime:
+  type:id
+  value:startTime
+  
+#结束时间--------------
+#点击
+endTime:
+  type:id
+  value:endTime
+#参与单位
+drillDept:
+  type:id
+  value:drillDept  
+
+#演练地点--------------
+drillName:
+  type:id
+  value:drillName
+#演练项目--------------
+#点击
+Project:
+  type:id
+  value:drillProject_of_replace_id1
+#选择
+selectProject:
+  type:id
+  value:drillProject_of_replace_id1  
+#演练场景--------------
+drillSight:
+  type:id
+  value:drillSight_of_replace_id2
+#演练状态--------------
+drillStatus:
+  type:id
+  value:drillStatus_of_replace_id3    
+#----------------------删除功能页----------------------------------

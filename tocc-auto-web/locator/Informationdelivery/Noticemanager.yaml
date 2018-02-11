@@ -1,0 +1,115 @@
+#信息发布--公告发布管理----page页
+#(iframe:APP-XXFB-GGFB)-----------------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:APP-XXFB-GGFB)--------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:APP-XXFB-GGFB)--------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgMsgDailyPlan)---------------
+保存草稿:
+  type:id
+  value:btnSave
+  
+#(Button)-------------
+退出:
+  type:xpath
+  value:".//*[@id='addEmgInfoNotice']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#(iframe:addEmgMsgDailyPlan)---------------
+确定:
+  type:id
+  value:alert_dlg_dlg  
+
+  
+#(iframe:addEmgMsgDailyPlan)---------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgMsgDailyPlan)---------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#---------------
+公告发布管理:
+  type:xpath
+  value:".//*[@class='accordion-group'][@title='公告发布管理']" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:APP-XXFB-GGFB)------------------
+标题:
+  type:id
+  value:title
+  
+#查询用(iframe:APP-XXFB-GGFB)------------------
+标题列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c102']>div"
+  
+#(iframe:APP-XXFB-GGFB)---------------
+创建日期:
+  type:id
+  value:createDate
+
+  
+#(iframe:APP-XXFB-GGFB)---------------
+起始日期:
+  type:id
+  value:publishStartTime
+  
+#(iframe:APP-XXFB-GGFB)---------------
+结束日期:
+  type:id
+  value:publishEndTime
+
+#(iframe:APP-XXFB-GGFB)---------------
+状态:
+  type:id
+  value:state_of_replace_id1
+#查询用(iframe:APP-XXFB-GGFB)------------------
+状态选择:
+  type:xpath
+  value:".//*[contains(@id,'state_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+
+#----------------------添加功能----------------------------------  
+#(iframe:addEmgMsgDailyPlan)-------------
+标题:
+  type:id
+  value:title
+  
+#(iframe:addEmgMsgDailyPlan)-----------
+起止日期:
+  type:id
+  value:publishStartTime
+    
+#(iframe:addEmgMsgDailyPlan)--------
+截止日期:
+  type:id
+  value:publishEndTime
+
+#(iframe:addEmgMsgDailyPlan)--------
+信息内容:
+  type:id
+  value:content
+  
+#----------------------删除功能----------------------------------  
+#(iframe:APP-XXFB-GGFB)-------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+ 

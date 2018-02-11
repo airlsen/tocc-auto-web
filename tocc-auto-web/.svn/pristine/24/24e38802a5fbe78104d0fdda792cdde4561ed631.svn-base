@@ -1,0 +1,22 @@
+package com.page;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.config.DriverManage;
+
+public class testyou {
+	public static void main(String[] args) throws InterruptedException{
+		
+		WebDriver driver=DriverManage.getDriver();
+		
+		driver.get("http://www.chinau.cc/");
+		Thread.sleep(15000);
+		driver.findElement(By.id("q")).sendKeys("nihao");
+		driver.findElement(By.xpath("html/body/div[2]/div[1]/form/input[2]")).click();
+		System.out.print("11111111111111111111111111111111");
+		
+		
+	}
+
+}

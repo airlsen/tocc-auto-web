@@ -1,0 +1,118 @@
+#信息发布--发布信息管理----page页
+#(iframe:APP-XXFB-FBXX)-----------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:APP-XXFB-FBXX)---------------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:APP-XXFB-FBXX)---------------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgMsgDailyPlan)----------------------
+保存:
+  type:id
+  value:saveBtn
+  
+#(Button)-----------------------------------------
+退出:
+  type:xpath
+  value:".//*[@id='addEmgMsgDailyPlan']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#(iframe:addEmgMsgDailyPlan)----------------------
+确定:
+  type:id
+  value:alert_dlg_dlg  
+
+  
+#(iframe:addEmgMsgTemplate)-----------------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgMsgTemplate)-----------------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#-------------------------------------------------
+发布信息管理:
+  type:xpath
+  value:".//*[@class='accordion-group'][@title='发布信息管理']" 
+ 
+
+#----------------------查询功能---------------------------------------
+#(iframe:APP-XXFB-FBXX)---------------------------
+标题:
+  type:id
+  value:title
+  
+#(iframe:APP-XXFB-FBXX)---------------------------
+信息类别:
+  type:id
+  value:type_of_replace_id1
+信息类别选择:
+  type:xpath
+  value:".//*[contains(@id,'type_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+
+
+#(iframe:APP-XXFB-FBXX)---------------------------
+信息状态:
+  type:id
+  value:status_of_replace_id2
+信息状态选择:
+  type:xpath
+  value:".//*[contains(@id,'status_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+
+
+
+
+#----------------------添加功能----------------------------------  ---
+#(iframe:addEmgMsgDailyPlan)----------------------
+标题:
+  type:id
+  value:title
+  
+#(iframe:addEmgMsgDailyPlan)----------------------
+事件名称:
+  type:id
+  value:eventName
+    
+#(iframe:addEmgMsgDailyPlan)----------------------
+模板:
+  type:id
+  value:templateName
+模板选择:
+  type:css
+  value:"td[id^='grid1003|2|r100']>div"
+
+#(iframe:addEmgMsgDailyPlan)----------------------
+信息类别:
+  type:id
+  value:type_of_replace_id1
+信息类别选择:
+  type:css
+  value:".text"
+  
+
+#(iframe:addEmgMsgDailyPlan)----------------------
+内容:
+  type:xpath
+  value:".//*[@id='baidu_editor_0']/html/body"
+  
+#----------------------删除功能---------------------------------------
+#(iframe:APP-XXFB-FBXX)---------------------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+#(iframe:APP-XXFB-FBXX)------------- -------------
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+  
+ 

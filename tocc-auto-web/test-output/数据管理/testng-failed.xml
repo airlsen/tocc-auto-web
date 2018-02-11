@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [数据管理]" parallel="tests">
+  <listeners>
+    <listener class-name="com.auto.test.plugins.arrow.TestResultListener"/>
+    <listener class-name="com.auto.test.plugins.arrow.RetryListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="数据管理_外场设备_视频监控设备管理(failed)" parallel="tests">
+    <classes>
+      <class name="com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test">
+        <methods>
+          <include name="delete" invocation-numbers="0 1"/>
+          <include name="endTest"/>
+          <include name="add" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="startTest"/>
+          <include name="query" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test -->
+    </classes>
+  </test> <!-- 数据管理_外场设备_视频监控设备管理(failed) -->
+</suite> <!-- Failed suite [数据管理] -->

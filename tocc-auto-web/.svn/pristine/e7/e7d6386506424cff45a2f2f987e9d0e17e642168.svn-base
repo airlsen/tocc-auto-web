@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" preserve-order="true" parallel="tests"
+	thread-count="1">
+		<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="com.auto.test.plugins.arrow.TestResultListener" />
+		<listener class-name="com.auto.test.plugins.arrow.RetryListener" />
+		<listener class-name="com.auto.test.plugins.arrow.PowerEmailableReporter" />
+	</listeners>
+	
+
+<suite-files>
+	    <!--*************************测试开始 ******************************** -->
+		<!-- 系统登录 -->
+		<!--suite-file path="login/login.xml"-->
+		<!-- 信息发布 -->
+		<suite-file path="infodelivery/infodelivery.xml"></suite-file>
+		<!-- 演练培训 -->
+		<suite-file path="drill/drill.xml"></suite-file>
+		<!-- 数据管理 -->
+		<!-- suite-file path="manager/manager.xml"> -->
+		</suite-files>
+</suite> <!-- Suite -->

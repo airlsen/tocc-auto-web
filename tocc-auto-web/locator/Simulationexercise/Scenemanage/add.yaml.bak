@@ -1,0 +1,83 @@
+#模拟演练--演练场景管理page
+#查询-----------------------------------------------------
+query:
+  type:id
+  value:btnDkQuery
+  
+#添加-------------
+add:
+  type:id
+  value:btnAdd
+  
+#编辑-------------
+save:
+  type:id
+  value:saveBtn
+  
+#删除-------------
+save:
+  type:id
+  value:saveBtn
+      
+
+#----------------------查询功能页----------------------------------
+#名称--------
+sightName:
+  type:id
+  value:sightName
+  
+#专题--------------
+type:
+  type:id
+  value:sightType_of_replace_id1
+typeSelect:
+  type:id
+  value:
+  
+#使用程度----------
+userTime:
+  type:id
+  value:userTime_of_replace_id2
+  
+#----------------------添加、编辑功能页----------------------------------
+#保存-------------
+save:
+  type:id
+  value:saveBtn
+  
+#退出-------------
+quit:
+  type:xpath
+  value:".//*[@id='addEmgDrillProject']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+    
+#演练场景名称--------------
+sightName:
+  type:id
+  value:sightName
+  
+#所属专题----------
+#点击
+sightType:
+  type:id
+  value:sightType_of_replace_id1
+#选择  
+sightSelect:
+  type:xpath
+  value:".//*[@id='form1']/table/tbody/tr[1]/td[4]/div/div/ul/li[3]/a/span"
+  
+#使用程度--------------
+#点击
+userTime:
+  type:id
+  value:userTime_of_replace_id2
+#选择
+userSelect:
+  type:id
+  value:userTime_of_replace_id2  
+
+#场景描述--------------
+discription:
+  type:id
+  value:discription
+
+#----------------------删除功能页----------------------------------

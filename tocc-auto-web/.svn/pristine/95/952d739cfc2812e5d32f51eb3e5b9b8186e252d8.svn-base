@@ -1,0 +1,1190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="8">信息发布</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">信息发布_公告发布管理</a></td><td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi">0</td><td class="numi">71.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="8">数据管理</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t2">数据管理_外场设备_视频监控设备管理</a></td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">14</td><td class="numi">64.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="8">演练培训</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t3">演练培训_演练管理_演练场景管理</a></td><td class="numi">14</td><td class="numi">13</td><td class="numi">0</td><td class="numi">0</td><td class="numi">54.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t4">演练培训_培训管理_培训课程</a></td><td class="numi">13</td><td class="numi">9</td><td class="numi">0</td><td class="numi">0</td><td class="numi">49.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">41</td><td class="numi">36</td><td class="numi">0</td><td class="numi_attn">14</td><td class="numi">239.9 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th><th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="5">信息发布</th></tr>
+<tr id="t1"><th colspan="5">信息发布_公告发布管理 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="14">com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test</td><td><a href="#m-1700312685"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=系统测试2, flag=2, 标题=, 预期结果=不能为空} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m-945641035"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=, flag=2, 标题=西藏交通, 预期结果=不能为空} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m1453711871"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=, flag=2, 标题=西藏交通6, 预期结果=不能为空} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m1344626718"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=系统测试, flag=1, 标题=西藏交通2, 预期结果=保存成功} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m1344626720"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=系统测试, flag=1, 标题=西藏交通4, 预期结果=保存成功} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m1453711898"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=, flag=2, 标题=西藏交通3, 预期结果=不能为空} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m1344626719"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=系统测试, flag=1, 标题=西藏交通5, 预期结果=保存成功} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m-1700312690"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=系统测试1, flag=2, 标题=, 预期结果=不能为空} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m1344626715"><b>add</b>  </a></td><td>John</td><td class="numi">9</td><td>1</td><td>{信息内容=系统测试, flag=1, 标题=西藏交通1, 预期结果=保存成功} </td><td>1451567364732</td><td class="numi">36418</td></tr><tr class="passedodd"><td><a href="#m-1354833619"><b>delete</b>  </a></td><td>John</td><td class="numi">2</td><td>1</td><td>{删除行=1} </td><td>1451567401335</td><td class="numi">4277</td></tr><tr class="passedodd"><td><a href="#m-1354833618"><b>delete</b>  </a></td><td>John</td><td class="numi">2</td><td>2</td><td>{删除行=2} </td><td>1451567401335</td><td class="numi">4277</td></tr><tr class="passedodd"><td><a href="#m1175461981"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td>1</td><td>{状态=未提交, 标题=西藏交通} </td><td>1451567405774</td><td class="numi">7578</td></tr><tr class="passedodd"><td><a href="#m1151104755"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td>1</td><td>{状态=, 标题=西藏交通} </td><td>1451567405774</td><td class="numi">7578</td></tr><tr class="passedodd"><td><a href="#m69913821"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td>1</td><td>{状态=, 标题=西藏} </td><td>1451567405774</td><td class="numi">7578</td></tr>
+<tr><th colspan="5">数据管理</th></tr>
+<tr id="t2"><th colspan="5">数据管理_外场设备_视频监控设备管理 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="14">com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test</td><td><a href="#m-1123158019"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{编号=1115421000G318110003, 监控对象=车辆, 视频通道=2, 用户名=阿森, 经度=99.002, 所在地=, 报警通道=2, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=30.711, flag=2, 名称=, 预期结果=不能为空, IP地址=127.0.0.2, 位置描述=西藏} </td><td>1451567534400</td><td class="numi">20382</td></tr><tr class="failedodd"><td><a href="#m115150307"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{编号=1115421000G318110005, 监控对象=车辆, 视频通道=4, 用户名=阿森, 经度=101.002, 所在地=, 报警通道=4, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=32.711, flag=1, 名称=卫星2号, 预期结果=添加成功, IP地址=127.0.0.4, 位置描述=西藏} </td><td>1451567534400</td><td class="numi">20382</td></tr><tr class="failedodd"><td><a href="#m-1165854940"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{编号=1115421000G318110007, 监控对象=车辆, 视频通道=6, 用户名=阿森, 经度=103.002, 所在地=, 报警通道=6, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=34.711, flag=1, 名称=视频22号, 预期结果=添加成功, IP地址=127.0.0.6, 位置描述=西藏} </td><td>1451567534400</td><td class="numi">20382</td></tr><tr class="failedodd"><td><a href="#m534070782"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{编号=1115421000G318110004, 监控对象=车辆, 视频通道=3, 用户名=阿森, 经度=100.002, 所在地=, 报警通道=3, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=31.711, flag=1, 名称=西藏1号, 预期结果=添加成功, IP地址=127.0.0.3, 位置描述=西藏} </td><td>1451567534400</td><td class="numi">20382</td></tr><tr class="failedodd"><td><a href="#m-1166143237"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{编号=1115421000G318110006, 监控对象=车辆, 视频通道=5, 用户名=阿森, 经度=102.002, 所在地=, 报警通道=5, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=33.711, flag=1, 名称=视频21号, 预期结果=添加成功, IP地址=127.0.0.5, 位置描述=西藏} </td><td>1451567534400</td><td class="numi">20382</td></tr><tr class="failedodd"><td><a href="#m-865909468"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{编号=, 监控对象=车辆, 视频通道=1, 用户名=阿森, 经度=98.002, 所在地=, 报警通道=1, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=29.711, flag=2, 名称=视频20号, 预期结果=不能为空, IP地址=127.0.0.1, 位置描述=西藏} </td><td>1451567534400</td><td class="numi">20382</td></tr><tr class="failedodd"><td><a href="#m-1704692177"><b>delete</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{删除行=2} </td><td>1451567554997</td><td class="numi">13156</td></tr><tr class="failedodd"><td><a href="#m-1704692176"><b>delete</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{删除行=3} </td><td>1451567554997</td><td class="numi">13156</td></tr><tr class="failedodd"><td><a href="#m-1704692175"><b>delete</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{删除行=4} </td><td>1451567554997</td><td class="numi">13156</td></tr><tr class="failedodd"><td><a href="#m-1704692178"><b>delete</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{删除行=1} </td><td>1451567554997</td><td class="numi">13156</td></tr><tr class="failedodd"><td><a href="#m-282078587"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=渡口, 类型=渡口} </td><td>1451567568314</td><td class="numi">13192</td></tr><tr class="failedodd"><td><a href="#m-281931930"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=渡口, 类型=公路} </td><td>1451567568314</td><td class="numi">13192</td></tr><tr class="failedodd"><td><a href="#m-280567539"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=视频, 类型=公路} </td><td>1451567568314</td><td class="numi">13192</td></tr><tr class="failedodd"><td><a href="#m-279885046"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=视频, 类型=} </td><td>1451567568314</td><td class="numi">13192</td></tr>
+<tr><th colspan="5">演练培训</th></tr>
+<tr id="t3"><th colspan="5">演练培训_演练管理_演练场景管理 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="4">com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test</td><td><a href="#m-1196646951"><b>delete</b>  </a></td><td>John</td><td class="numi">1</td><td>1</td><td>{删除行=2} </td><td>1451567457081</td><td class="numi">3295</td></tr><tr class="failedodd"><td><a href="#m-1218079488"><b>delete</b>  </a></td><td>John</td><td class="numi">1</td><td></td><td></td><td>1451567457081</td><td class="numi">3295</td></tr><tr class="failedodd"><td><a href="#m-1218079488"><b>delete</b>  </a></td><td>John</td><td class="numi">1</td><td></td><td></td><td>1451567457081</td><td class="numi">3295</td></tr><tr class="failedodd"><td><a href="#m-1218079488"><b>delete</b>  </a></td><td>John</td><td class="numi">1</td><td></td><td></td><td>1451567457081</td><td class="numi">3295</td></tr>
+<tr><th colspan="5">演练培训_演练管理_演练场景管理 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="10">com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test</td><td><a href="#m-1811808351"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{演练场景名称=演练场景10, flag=2, 场景描述=, 预期结果=不能为空} </td><td>1451567429868</td><td class="numi">26607</td></tr><tr class="passedodd"><td><a href="#m-1594898586"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{演练场景名称=, flag=2, 场景描述=演练场景测试, 预期结果=不能为空} </td><td>1451567429868</td><td class="numi">26607</td></tr><tr class="passedodd"><td><a href="#m59473052"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{演练场景名称=演练场景12, flag=1, 场景描述=演练场景测试, 预期结果=添加成功} </td><td>1451567429868</td><td class="numi">26607</td></tr><tr class="passedodd"><td><a href="#m59473050"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{演练场景名称=演练场景14, flag=1, 场景描述=演练场景测试, 预期结果=添加成功} </td><td>1451567429868</td><td class="numi">26607</td></tr><tr class="passedodd"><td><a href="#m59473065"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{演练场景名称=演练场景15, flag=1, 场景描述=演练场景测试, 预期结果=添加成功} </td><td>1451567429868</td><td class="numi">26607</td></tr><tr class="passedodd"><td><a href="#m59473051"><b>add</b>  </a></td><td>John</td><td class="numi">6</td><td>1</td><td>{演练场景名称=演练场景13, flag=1, 场景描述=演练场景测试, 预期结果=添加成功} </td><td>1451567429868</td><td class="numi">26607</td></tr><tr class="passedodd"><td><a href="#m1741161900"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=演练场景, 专题=其他, 使用程度=} </td><td>1451567461500</td><td class="numi">6945</td></tr><tr class="passedodd"><td><a href="#m1741812172"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=演练场景, 专题=, 使用程度=} </td><td>1451567461500</td><td class="numi">6945</td></tr><tr class="passedodd"><td><a href="#m-1917568676"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=演练场景, 专题=交通事故, 使用程度=} </td><td>1451567461500</td><td class="numi">6945</td></tr><tr class="passedodd"><td><a href="#m-1852581649"><b>query</b>  </a></td><td>John</td><td class="numi">4</td><td>1</td><td>{名称=演练场景, 专题=地质灾害, 使用程度=} </td><td>1451567461500</td><td class="numi">6945</td></tr>
+<tr id="t4"><th colspan="5">演练培训_培训管理_培训课程 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="6">com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test</td><td><a href="#m-558551617"><b>delete</b>  </a></td><td>John</td><td class="numi">1</td><td>1</td><td>{删除行=1} </td><td>1451567508518</td><td class="numi">1095</td></tr><tr class="failedodd"><td><a href="#m-579984153"><b>delete</b>  </a></td><td>John</td><td class="numi">1</td><td></td><td></td><td>1451567508518</td><td class="numi">1095</td></tr><tr class="failedodd"><td><a href="#m132717580"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td>1</td><td>{授课类型=, 课程名称=火灾救援, 授课老师=} </td><td>1451567511661</td><td class="numi">4921</td></tr><tr class="failedodd"><td><a href="#m-59888748"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td>1</td><td>{授课类型=, 课程名称=培训课程, 授课老师=张老师} </td><td>1451567511661</td><td class="numi">4921</td></tr><tr class="failedodd"><td><a href="#m-1485262681"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td>1</td><td>{授课类型=应急管理, 课程名称=老师, 授课老师=} </td><td>1451567511661</td><td class="numi">4921</td></tr><tr class="failedodd"><td><a href="#m863418372"><b>query</b>  </a></td><td>John</td><td class="numi">3</td><td></td><td></td><td>1451567511661</td><td class="numi">4921</td></tr>
+<tr><th colspan="5">演练培训_培训管理_培训课程 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="7">com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test</td><td><a href="#m-419381543"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=2, 课时=12, 课程名称=, 授课老师=张老师, 课程描述=应急管理, 预期结果=课程名称不能为空} </td><td>1451567481775</td><td class="numi">25447</td></tr><tr class="passedodd"><td><a href="#m-1444611436"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=2, 课时=, 课程名称=老师, 授课老师=演练场景测试, 课程描述=培训设计, 预期结果=课时必须大于0} </td><td>1451567481775</td><td class="numi">25447</td></tr><tr class="passedodd"><td><a href="#m510650961"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=考试中心, 预期结果=增加成功} </td><td>1451567481775</td><td class="numi">25447</td></tr><tr class="passedodd"><td><a href="#m1486465748"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=2, 课时=12, 课程名称=火灾救援, 授课老师=演练场景测试, 课程描述=, 预期结果=课程描述不能为空} </td><td>1451567481775</td><td class="numi">25447</td></tr><tr class="passedodd"><td><a href="#m-1461205447"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=题库管理, 预期结果=增加成功} </td><td>1451567481775</td><td class="numi">25447</td></tr><tr class="passedodd"><td><a href="#m211028586"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=1, 课时=12, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=培训课程, 预期结果=增加成功} </td><td>1451567481775</td><td class="numi">25447</td></tr><tr class="passedodd"><td><a href="#m-738000499"><b>add</b>  </a></td><td>John</td><td class="numi">7</td><td>1</td><td>{flag=2, 课时=10, 课程名称=老师, 授课老师=, 课程描述=指挥调度, 预期结果=授课老师不能为空} </td><td>1451567481775</td><td class="numi">25447</td></tr>
+<tr><th colspan="5">Suite</th></tr>
+</table>
+<h1>信息发布_公告发布管理</h1>
+<h2 id="m69913821" name="m69913821" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{状态=, 标题=西藏}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1700312690" name="m-1700312690" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=系统测试1, flag=2, 标题=, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1354833619" name="m-1354833619" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1344626719" name="m1344626719" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=系统测试, flag=1, 标题=西藏交通5, 预期结果=保存成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-945641035" name="m-945641035" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=, flag=2, 标题=西藏交通, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1344626720" name="m1344626720" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=系统测试, flag=1, 标题=西藏交通4, 预期结果=保存成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1453711898" name="m1453711898" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=, flag=2, 标题=西藏交通3, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1344626718" name="m1344626718" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=系统测试, flag=1, 标题=西藏交通2, 预期结果=保存成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1151104755" name="m1151104755" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{状态=, 标题=西藏交通}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1354833618" name="m-1354833618" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=2}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1344626715" name="m1344626715" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=系统测试, flag=1, 标题=西藏交通1, 预期结果=保存成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1453711871" name="m1453711871" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=, flag=2, 标题=西藏交通6, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1700312685" name="m-1700312685" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{信息内容=系统测试2, flag=2, 标题=, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1175461981" name="m1175461981" >com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{状态=未提交, 标题=西藏交通}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>数据管理_外场设备_视频监控设备管理</h1>
+<h2 id="m-279885046" name="m-279885046" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=视频, 类型=}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_51_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_51_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.querys(Videosurveillancebusiness.java:91)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.query(Datamanagement_Videosurveillance_test.java:58)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m534070782" name="m534070782" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{编号=1115421000G318110004, 监控对象=车辆, 视频通道=3, 用户名=阿森, 经度=100.002, 所在地=, 报警通道=3, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=31.711, flag=1, 名称=西藏1号, 预期结果=添加成功, IP地址=127.0.0.3, 位置描述=西藏}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_24_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_24_add] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.add(Videosurveillancebusiness.java:43)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 21 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1704692175" name="m-1704692175" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=4}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_48_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_48_delete] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.deletes(Videosurveillancebusiness.java:115)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.delete(Datamanagement_Videosurveillance_test.java:80)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1704692178" name="m-1704692178" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=1}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_38_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_38_delete] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.deletes(Videosurveillancebusiness.java:115)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.delete(Datamanagement_Videosurveillance_test.java:80)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1166143237" name="m-1166143237" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{编号=1115421000G318110006, 监控对象=车辆, 视频通道=5, 用户名=阿森, 经度=102.002, 所在地=, 报警通道=5, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=33.711, flag=1, 名称=视频21号, 预期结果=添加成功, IP地址=127.0.0.5, 位置描述=西藏}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_31_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_31_add] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.add(Videosurveillancebusiness.java:43)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 21 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m115150307" name="m115150307" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{编号=1115421000G318110005, 监控对象=车辆, 视频通道=4, 用户名=阿森, 经度=101.002, 所在地=, 报警通道=4, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=32.711, flag=1, 名称=卫星2号, 预期结果=添加成功, IP地址=127.0.0.4, 位置描述=西藏}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_28_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_28_add] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.add(Videosurveillancebusiness.java:43)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 21 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1123158019" name="m-1123158019" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{编号=1115421000G318110003, 监控对象=车辆, 视频通道=2, 用户名=阿森, 经度=99.002, 所在地=, 报警通道=2, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=30.711, flag=2, 名称=, 预期结果=不能为空, IP地址=127.0.0.2, 位置描述=西藏}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_21_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_21_add] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.add(Videosurveillancebusiness.java:43)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 21 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-281931930" name="m-281931930" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=渡口, 类型=公路}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_13_01_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_13_01_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.querys(Videosurveillancebusiness.java:91)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.query(Datamanagement_Videosurveillance_test.java:58)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-280567539" name="m-280567539" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=视频, 类型=公路}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_58_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_58_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.querys(Videosurveillancebusiness.java:91)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.query(Datamanagement_Videosurveillance_test.java:58)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1165854940" name="m-1165854940" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{编号=1115421000G318110007, 监控对象=车辆, 视频通道=6, 用户名=阿森, 经度=103.002, 所在地=, 报警通道=6, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=34.711, flag=1, 名称=视频22号, 预期结果=添加成功, IP地址=127.0.0.6, 位置描述=西藏}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_34_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_34_add] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.add(Videosurveillancebusiness.java:43)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1704692177" name="m-1704692177" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=2}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_41_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_41_delete] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.deletes(Videosurveillancebusiness.java:115)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.delete(Datamanagement_Videosurveillance_test.java:80)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-282078587" name="m-282078587" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=渡口, 类型=渡口}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_54_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_54_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.querys(Videosurveillancebusiness.java:91)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.query(Datamanagement_Videosurveillance_test.java:58)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1704692176" name="m-1704692176" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=3}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_44_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_44_delete] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[contains(text(),&apos;视频监控设备管理&apos;)]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.deletes(Videosurveillancebusiness.java:115)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.delete(Datamanagement_Videosurveillance_test.java:80)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (93, 186). Other element would receive the click: &lt;div class=&quot;l-window-mask&quot; style=&quot;display: block; height: 667px;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-865909468" name="m-865909468" >com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{编号=, 监控对象=车辆, 视频通道=1, 用户名=阿森, 经度=98.002, 所在地=, 报警通道=1, 密码=123456, 生产厂家=恒安视达电子技术有限公司, 纬度=29.711, flag=2, 名称=视频20号, 预期结果=不能为空, IP地址=127.0.0.1, 位置描述=西藏}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_12_17_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_12_17_add] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 2dd9247a0904d03e2d23a58b3abf3f93
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5472_3439}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:866)
+	at com.util.SeleniumUtil.inFrame(SeleniumUtil.java:401)
+	at com.auto.business.datamanagement.Videosurveillancebusiness.add(Videosurveillancebusiness.java:48)
+	at com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test.add(Datamanagement_Videosurveillance_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>演练培训_演练管理_演练场景管理</h1>
+<h2 id="m-1196646951" name="m-1196646951" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=2}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_11_00_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_11_00_delete] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: Failed to click element [ xpath: .//*[text()=&apos;删除&apos;]]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.drilltraining.Drillscenebusiness.deletes(Drillscenebusiness.java:106)
+	at com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test.delete(Drilltraining_Drillscenemanager_test.java:77)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.88.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 6a4f87bbb80bb01d14051fc296c607bd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir8956_30171}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 6a4f87bbb80bb01d14051fc296c607bd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir8956_30171}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 21 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59473051" name="m59473051" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{演练场景名称=演练场景13, flag=1, 场景描述=演练场景测试, 预期结果=添加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59473050" name="m59473050" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{演练场景名称=演练场景14, flag=1, 场景描述=演练场景测试, 预期结果=添加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59473052" name="m59473052" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{演练场景名称=演练场景12, flag=1, 场景描述=演练场景测试, 预期结果=添加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59473065" name="m59473065" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{演练场景名称=演练场景15, flag=1, 场景描述=演练场景测试, 预期结果=添加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1852581649" name="m-1852581649" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=演练场景, 专题=地质灾害, 使用程度=}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1196646949" name="m-1196646949" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=4}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1917568676" name="m-1917568676" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=演练场景, 专题=交通事故, 使用程度=}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1811808351" name="m-1811808351" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{演练场景名称=演练场景10, flag=2, 场景描述=, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1196646952" name="m-1196646952" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=1}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1741161900" name="m1741161900" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=演练场景, 专题=其他, 使用程度=}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1594898586" name="m-1594898586" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{演练场景名称=, flag=2, 场景描述=演练场景测试, 预期结果=不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1741812172" name="m1741812172" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{名称=演练场景, 专题=, 使用程度=}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1196646950" name="m-1196646950" >com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=3}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>演练培训_培训管理_培训课程</h1>
+<h2 id="m-1485262681" name="m-1485262681" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{授课类型=应急管理, 课程名称=老师, 授课老师=}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_11_53_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_11_53_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-558551617" name="m-558551617" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=1}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_11_49_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_11_49_delete] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: expected [确认要删除培训课程课程名称12吗？] but found [确认要删除培训课程系长吗？]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 21 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m132717580" name="m132717580" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{授课类型=, 课程名称=火灾救援, 授课老师=}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_11_54_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_11_54_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-59888748" name="m-59888748" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{授课类型=, 课程名称=培训课程, 授课老师=张老师}</td>
+</tr>
+<tr><td>
+<h3>Test Messages</h3>
+[2015_12_31_21_11_56_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_21_11_56_query] ,截图失败，原因：null"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:59)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-764526241" name="m-764526241" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:query</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{授课类型=所有, 课程名称=公务员, 授课老师=老师}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m510650961" name="m510650961" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=考试中心, 预期结果=增加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m211028586" name="m211028586" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=1, 课时=12, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=培训课程, 预期结果=增加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1461205447" name="m-1461205447" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=题库管理, 预期结果=增加成功}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1486465748" name="m1486465748" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=2, 课时=12, 课程名称=火灾救援, 授课老师=演练场景测试, 课程描述=, 预期结果=课程描述不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-738000499" name="m-738000499" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=2, 课时=10, 课程名称=老师, 授课老师=, 课程描述=指挥调度, 预期结果=授课老师不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1444611436" name="m-1444611436" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=2, 课时=, 课程名称=老师, 授课老师=演练场景测试, 课程描述=培训设计, 预期结果=课时必须大于0}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-419381543" name="m-419381543" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:add</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{flag=2, 课时=12, 课程名称=, 授课老师=张老师, 课程描述=应急管理, 预期结果=课程名称不能为空}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-558551616" name="m-558551616" >com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test:delete</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>{删除行=2}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

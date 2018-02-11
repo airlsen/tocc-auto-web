@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]" parallel="true">
+  <listeners>
+    <listener class-name="com.incito.excelReporter.TestResultListener"/>
+    <listener class-name="com.incito.excelReporter.ExcelReporter"/>
+  </listeners>
+  <test name="test">
+    <classes>
+      <class name="com.auto.cases.login.SystemLoginTest"/>
+    </classes>
+  </test> <!-- test -->
+</suite> <!-- Failed suite [test] -->

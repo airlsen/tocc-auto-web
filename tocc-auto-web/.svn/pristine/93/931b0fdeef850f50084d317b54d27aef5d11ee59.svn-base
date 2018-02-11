@@ -1,0 +1,165 @@
+#数据管理--视频监控设备管理----page页
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------------------------------------
+查询:
+  type:id
+  value:btnDkQuery
+  
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+添加:
+  type:id
+  value:btnAdd
+  
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+删除:
+  type:xpath
+  value:".//*[text()='删除']"
+  
+#(iframe:addEmgTrainCourse)-----------------------
+保存:
+  type:xpath
+  value:".//*[@id='toolbar']/div/a"
+  
+#(Button)-----------------------------------------
+退出:
+  type:xpath
+  value:".//*[@id='addJtCamera']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+#-------------------------------------------------
+确定:
+  type:id
+  value:alert_dlg_dlg   
+#-------------------------------------------------
+弹出信息:
+  type:css
+  value:".l-dialog-content"
+  
+#(iframe:addEmgDrillSight)------------------------
+红色提示:
+  type:xpath
+  value:".//*[@id='opentip-1']/div/div[2]"
+  
+#-------------------------------------------------
+外场设备:
+  type:xpath
+  value:".//*[contains(text(),'外场设备')]" 
+  
+#-------------------------------------------------
+视频监控设备管理:
+  type:xpath
+  value:".//*[contains(text(),'视频监控设备管理')]" 
+ 
+
+#----------------------查询功能-------------------------------------------------
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+名称:
+  type:id
+  value:cameraName
+
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+类型:
+  type:id
+  value:placeType_of_replace_id1
+类型选择:
+  type:xpath
+  value:".//*[contains(@id,'placeType_of_replace_id')]/parent::div/div/ul/li/a/span[text()='%s']"
+  
+#查询用(iframe:APP-SJGL-WCSB-SPGL)----------------
+名称列表:
+  type:css
+  value:"[id^='maingrid1|2|r1'][id$='|c103']>div"
+
+
+#----------------------添加功能---------------------------------- -------------- 
+#(iframe:addJtCamera)-----------------------------
+添加名称:
+  type:id
+  value:cameraName
+#(iframe:addJtCamera)-----------------------------
+编号:
+  type:id
+  value:cameraNumber
+  
+#(iframe:addJtCamera)-----------------------------
+添加类型:
+  type:id
+  value:placeType_of_replace_id1
+添加类型选择:
+  type:xpath
+  value:".//*[contains(@id,'placeType_of_replace_id')]/parent::div/div/ul/li/a/span"
+    
+#(iframe:addJtCamera)-----------------------------
+状态:
+  type:id
+  value:status_of_replace_id2
+状态选择:
+  type:xpath
+  value:".//*[contains(@id,'status_of_replace_id')]/parent::div/div/ul/li/a/span"
+#(iframe:addJtCamera)-----------------------------
+视频通道:
+  type:id
+  value:channelId
+#(iframe:addJtCamera)-----------------------------
+报警通道:
+  type:id
+  value:alermChannelId
+#(iframe:addJtCamera)----------------------------- 
+用户名:
+  type:id
+  value:username
+#(iframe:addJtCamera)-----------------------------  
+密码:
+  type:id
+  value:password
+  
+#(iframe:addJtCamera)----------------------------- 
+IP地址:
+  type:id
+  value:srserverip
+  
+#(iframe:addJtCamera)-----------------------------  
+所在地:
+  type:id
+  value:placeName
+  
+#(iframe:addJtCamera)----------------------------- 
+经度:
+  type:id
+  value:longitude
+  
+#(iframe:addJtCamera)----------------------------- 
+纬度:
+  type:id
+  value:latitude 
+  
+#(iframe:addJtCamera)----------------------------- 
+监控对象:
+  type:id
+  value:monitorObject
+  
+#(iframe:addJtCamera)----------------------------- 
+生产厂家:
+  type:id
+  value:companyName
+  
+#(iframe:addJtCamera)-----------------------------  
+管理机构:
+  type:id
+  value:deptId_of_replace_id1
+管理机构选择:
+  type:id
+  value:".//*[contains(@id,'deptId_of_replace_id1_ztree_wh_')]"
+
+#(iframe:addJtCamera)-----------------------------
+位置描述:
+  type:id
+  value:locationDescribe
+  
+#----------------------删除功能-------------------------------------------------  
+#(iframe:APP-SJGL-WCSB-SPGL)----------------------
+是:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='是']"
+
+否:
+  type:xpath
+  value:".//*[@id='alert_dlg_dlg'][text()='否']"
+ 

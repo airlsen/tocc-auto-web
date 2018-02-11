@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="信息发布_公告发布管理"
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="47.608">
+  <properties />
+  
+  
+            <testcase name="add" time="4.371" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="10.395" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="2.820" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="query" time="2.553" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="2.889" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="2.854" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="4.351" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="delete" time="0.479" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="delete" time="0.458" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="4.651" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="query" time="2.156" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="4.463" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="query" time="2.307" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+                <testcase name="add" time="2.861" classname="com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test" />
+      
+</testsuite>

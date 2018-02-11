@@ -1,0 +1,864 @@
+<html>
+<head>
+<title>TestNG:  演练培训_培训管理_培训课程</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>演练培训_培训管理_培训课程</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/13/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 31 19:44:14 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40880 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=12, 课程名称=, 授课老师=张老师, 课程描述=应急管理, 预期结果=课程名称不能为空}<br/>
+<a href="#Output-1040849355" onClick='toggleBox("Output-1040849355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1040849355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1040849355">
+[2015_12_31_19_44_23_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_23_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1040849355", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1040849355'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>1</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=10, 课程名称=老师, 授课老师=, 课程描述=指挥调度, 预期结果=授课老师不能为空}<br/>
+<a href="#Output-2111378219" onClick='toggleBox("Output-2111378219", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2111378219" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2111378219">
+[2015_12_31_19_44_23_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_23_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2111378219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2111378219'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=, 课程名称=老师, 授课老师=演练场景测试, 课程描述=培训设计, 预期结果=课时必须大于0}<br/>
+<a href="#Output-1470269096" onClick='toggleBox("Output-1470269096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1470269096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1470269096">
+[2015_12_31_19_44_24_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_24_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1470269096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1470269096'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=2, 课时=12, 课程名称=火灾救援, 授课老师=演练场景测试, 课程描述=, 预期结果=课程描述不能为空}<br/>
+<a href="#Output-1134746292" onClick='toggleBox("Output-1134746292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134746292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134746292">
+[2015_12_31_19_44_24_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_24_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1134746292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1134746292'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=1, 课时=12, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=培训课程, 预期结果=增加成功}<br/>
+<a href="#Output-1128384344" onClick='toggleBox("Output-1128384344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128384344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128384344">
+[2015_12_31_19_44_24_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_24_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1128384344", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1128384344'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=考试中心, 预期结果=增加成功}<br/>
+<a href="#Output-506709036" onClick='toggleBox("Output-506709036", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-506709036" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-506709036">
+[2015_12_31_19_44_24_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_24_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace506709036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace506709036'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add()'><b>add</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {flag=1, 课时=100, 课程名称=课程名称12, 授课老师=演练场景测试, 课程描述=题库管理, 预期结果=增加成功}<br/>
+<a href="#Output-447114286" onClick='toggleBox("Output-447114286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-447114286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-447114286">
+[2015_12_31_19_44_24_add] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_24_add] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace447114286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace447114286'><pre>java.lang.NullPointerException
+	at com.util.SeleniumUtil.isDisplayed(SeleniumUtil.java:462)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.add(Trainingcoursebusiness.java:43)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.add(Drilltraining_Trainingcourse_test.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>0</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete()'><b>delete</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {删除行=2}<br/>
+<a href="#Output-642968153" onClick='toggleBox("Output-642968153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-642968153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-642968153">
+[2015_12_31_19_44_43_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_43_delete] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Failed to click element [null]
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.deletes(Trainingcoursebusiness.java:110)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace642968153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace642968153'><pre>java.lang.AssertionError: Failed to click element [null]
+	at org.testng.Assert.fail(Assert.java:83)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:152)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.deletes(Trainingcoursebusiness.java:110)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.Exception: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:165)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:169)
+	at com.util.SeleniumUtil.click(SeleniumUtil.java:146)
+	... 23 more
+Caused by: java.lang.NullPointerException
+	at com.util.SeleniumUtil.clickTheClickable(SeleniumUtil.java:161)
+	... 27 more
+</pre></div></td>
+<td>19</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete()'><b>delete</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {删除行=1}<br/>
+<a href="#Output-420963758" onClick='toggleBox("Output-420963758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-420963758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-420963758">
+[2015_12_31_19_44_45_delete] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_45_delete] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.deletes(Trainingcoursebusiness.java:109)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace420963758", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace420963758'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.deletes(Trainingcoursebusiness.java:109)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.delete(Drilltraining_Trainingcourse_test.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>2</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=所有, 课程名称=公务员, 授课老师=老师}<br/>
+<a href="#Output-1071470023" onClick='toggleBox("Output-1071470023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1071470023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1071470023">
+[2015_12_31_19_44_47_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_47_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1071470023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1071470023'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.01 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>2</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=应急管理, 课程名称=老师, 授课老师=}<br/>
+<a href="#Output-2042760882" onClick='toggleBox("Output-2042760882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2042760882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2042760882">
+[2015_12_31_19_44_49_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_49_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042760882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042760882'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>2</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=, 课程名称=火灾救援, 授课老师=}<br/>
+<a href="#Output-882659268" onClick='toggleBox("Output-882659268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-882659268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-882659268">
+[2015_12_31_19_44_51_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_51_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace882659268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace882659268'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.02 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>2</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+<tr>
+<td title='com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query()'><b>query</b><br>Test class: com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test<br>Parameters: {授课类型=, 课程名称=培训课程, 授课老师=张老师}<br/>
+<a href="#Output-1257506684" onClick='toggleBox("Output-1257506684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1257506684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1257506684">
+[2015_12_31_19_44_53_query] ,截图失败，原因：null<br/>
+<img src="../../[2015_12_31_19_44_53_query] ,截图失败，原因：null"/><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1257506684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1257506684'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Asen-PC&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: 97b1be56795b234dc977a08b4007cc77
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Asen\AppData\Local\Temp\scoped_dir5400_1679}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=47.0.2526.106, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:889)
+	at com.util.SeleniumUtil.outFrame(SeleniumUtil.java:414)
+	at com.auto.business.drilltraining.Trainingcoursebusiness.querys(Trainingcoursebusiness.java:84)
+	at com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test.query(Drilltraining_Trainingcourse_test.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></div></td>
+<td>2</td>
+<td>com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@5f1525cd</td></tr>
+</table><p>
+</body>
+</html>

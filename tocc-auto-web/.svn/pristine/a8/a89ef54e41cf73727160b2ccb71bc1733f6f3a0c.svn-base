@@ -1,0 +1,142 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>数据管理</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:19:07</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;SystemLoginTest.beforeClass()[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">&gt;&gt;beforeClass</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:19:10</td>   <td>2816</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SystemLoginTest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">login</td> 
+  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:20:02</td>   <td>55031</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SystemLoginTest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">login</td> 
+  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:20:04</td>   <td>56838</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SystemLoginTest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">login</td> 
+  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:20:06</td>   <td>58147</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SystemLoginTest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">login</td> 
+  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:20:07</td>   <td>59374</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SystemLoginTest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">login</td> 
+  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:20:17</td>   <td>69888</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SystemLoginTest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">login</td> 
+  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="9e70ce">  <td>15/12/23 09:20:25</td>   <td>77694</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;SystemLoginTest.afterClass()[pri:0, instance:com.auto.cases.login.SystemLoginTest@26afff]">&lt;&lt;afterClass</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@6007986</td>   <td></td> </tr>
+<tr bgcolor="f7917b">  <td>15/12/23 09:20:27</td>   <td>79489</td> <td>&nbsp;</td><td title="&gt;&gt;BaseParpare.startTest(org.testng.ITestContext)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">&gt;&gt;startTest</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316813</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316821</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316854</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316857</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316859</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316862</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316866</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316868</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:24</td>   <td>316871</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">add</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317252</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">delete</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317254</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">delete</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317257</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">delete</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317616</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">query</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317619</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">query</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317622</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">query</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="de8586">  <td>15/12/23 09:24:25</td>   <td>317624</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Informationdelivery_Noticemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.infodelivery.Informationdelivery_Noticemanager_test@15d5d35]">query</td> 
+  <td>TestNG@16571602</td>   <td></td> </tr>
+<tr bgcolor="f7917b">  <td>15/12/23 09:24:25</td>   <td>317847</td> <td>&nbsp;</td><td title="&gt;&gt;BaseParpare.startTest(org.testng.ITestContext)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">&gt;&gt;startTest</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328434</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328439</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328442</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328445</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328447</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328450</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328762</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">delete</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328765</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">delete</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328767</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">delete</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>328770</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">delete</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>329079</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>329081</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>329084</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="df9697">  <td>15/12/23 09:24:36</td>   <td>329086</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Drillscenemanager_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Drillscenemanager_test@e258bb]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="f7917b">  <td>15/12/23 09:24:37</td>   <td>329257</td> <td>&nbsp;</td><td title="&gt;&gt;BaseParpare.startTest(org.testng.ITestContext)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">&gt;&gt;startTest</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353336</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353340</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353342</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353344</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353348</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353350</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353352</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.add(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">add</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353647</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">delete</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353649</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">delete</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353923</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353934</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353936</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="7ec391">  <td>15/12/23 09:25:01</td>   <td>353938</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Drilltraining_Trainingcourse_test.query(java.util.Map)[pri:0, instance:com.auto.cases.drilltraining.Drilltraining_Trainingcourse_test@1c126da]">query</td> 
+  <td>TestNG@24894669</td>   <td></td> </tr>
+<tr bgcolor="f7917b">  <td>15/12/23 09:25:02</td>   <td>354147</td> <td>&nbsp;</td><td title="&gt;&gt;BaseParpare.startTest(org.testng.ITestContext)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">&gt;&gt;startTest</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:07</td>   <td>359770</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.add(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">add</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:07</td>   <td>359800</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.add(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">add</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:07</td>   <td>359810</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.add(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">add</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:07</td>   <td>359812</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.add(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">add</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:07</td>   <td>359814</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.add(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">add</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:07</td>   <td>359817</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.add(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">add</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360118</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">delete</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360120</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">delete</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360122</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">delete</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360124</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.delete(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">delete</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360412</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.query(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">query</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360414</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.query(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">query</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360417</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.query(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">query</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+<tr bgcolor="baecac">  <td>15/12/23 09:25:08</td>   <td>360419</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Datamanagement_Videosurveillance_test.query(java.util.Map)[pri:0, instance:com.auto.cases.datamanagement.Datamanagement_Videosurveillance_test@bc7bc0]">query</td> 
+  <td>TestNG@1812875</td>   <td></td> </tr>
+</table>

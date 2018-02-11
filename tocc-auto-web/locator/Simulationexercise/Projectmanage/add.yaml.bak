@@ -1,0 +1,104 @@
+#数据管理--外场设备--交调站管理--监控设备page
+#查询-----------------------------------------------------
+query:
+  type:id
+  value:btnDkQuery
+  
+#添加-------------
+add:
+  type:id
+  value:btnAdd
+  
+#编辑-------------
+save:
+  type:id
+  value:saveBtn
+  
+#删除-------------
+save:
+  type:id
+  value:saveBtn
+      
+
+#----------------------查询功能页----------------------------------
+#项目主体--------
+drillName:
+  type:id
+  value:drillName
+  
+#项目类型--------------
+type:
+  type:id
+  value:stationType_of_replace_id1
+typeSelect:
+  type:id
+  value:
+  
+#组织单位----------
+organizeDept:
+  type:id
+  value:organizeDept_of_replace_id1
+
+#演练时间----------
+#开始
+start:
+  type:id
+  value:startTime
+#结束  
+end:
+  type:id
+  value:endTime  
+  
+#演练内容----------
+roadCode:
+  type:id
+  value:drillContent    
+#----------------------添加、编辑功能页----------------------------------
+#保存-------------
+save:
+  type:id
+  value:saveBtn
+  
+#退出-------------
+quit:
+  type:xpath
+  value:".//*[@id='addEmgDrillProject']/table/tbody/tr[1]/td[2]/div/div[3]/div"
+    
+#项目主体--------------
+drill:
+  type:id
+  value:drillName
+  
+#组织单位----------
+#点击单位
+organize:
+  type:id
+  value:organizeDept_of_replace_id1'
+#选择单位  
+organizeselect:
+  type:id
+  value:organizeDept_of_replace_id1_ztree_wh_4_span
+  
+#项目类型--------------
+drillType:
+  type:id
+  value:drillType_of_replace_id1
+
+#开始时间--------------
+startTime:
+  type:id
+  value:startTime
+#结束时间--------------
+endTime:
+  type:id
+  value:endTime
+#演练内容----------
+drillContent:
+  type:id
+  value:drillContent      
+ 
+#演练目标----------
+drillTarget:
+  type:id
+  value:drillTarget
+ 
